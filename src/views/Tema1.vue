@@ -134,7 +134,7 @@
 
     p.mb-5 Teniendo en cuenta el ejemplo anterior, a continuación se muestran los métodos que son más importantes y propios de las listas:
     .row.mb-5
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -149,7 +149,7 @@
                       | my_list.append([2,5]) # [2,5,'DevCode',1.2,5,[2,5]]
               //figure
                 img(src='@/assets/curso/tema1/img10.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -163,7 +163,7 @@
                       | my_list.extend([2,5]) # [2,5,'DevCode',1.2,5,2,5]
               //figure
                 img(src='@/assets/curso/tema1/img11.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -177,7 +177,7 @@
                       | my_list.remove(2) # [5, 'DevCode', 1.2, 5]
               //figure
                 img(src='@/assets/curso/tema1/img12.png', style="width: 400px" ,alt='').m-auto
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -191,7 +191,7 @@
                       | my_list.index('DevCode') # 2
               //figure
                 img(src='@/assets/curso/tema1/img13.png', style="width: 300px" ,alt='').m-auto
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -205,7 +205,7 @@
                       | my_list.count(5) # 2
               //figure
                 img(src='@/assets/curso/tema1/img14.png', style="width: 300px" ,alt='').m-auto
-      .col-lg-6
+      .col-xl-6
         .row.mx-1.my-3
           .col-12.bg-c4
             .p-4
@@ -284,7 +284,14 @@
         .p-4
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 5]. Matrices
-          figure
+
+          .row.justify-content-center
+            .col-auto
+              pre
+                code.language-python
+                  | my_matrix = [[1,2,3],[4,5,6],[7,8,9]]
+                  | np.array(my_matrix)
+          //figure
             img(src='@/assets/curso/tema1/img19.png', style="width: 390px" ,alt='').m-auto
     p Los arreglos de NumPy se pueden expandir para trabajar con matrices de uno, dos o más dimensiones; las operaciones que se pueden hacer con esta librería son extensas y es por eso que se mostrarán algunas de las más utilizadas, para ver cómo es el trabajo y la sintaxis correcta utilizando NumPy. Es común que las listas de Python tengan gran similitud con los arreglos de NumPy, pero su gran diferencia radica en que son más rápidos, menos pesados y permiten generar arrays n-dimensionales.
     p.mb-5 Los arrays pueden variar en sus presentaciones unidimensional o vector, bidimensional o matriz y tensor.
@@ -469,7 +476,7 @@
                   h3.mb-1 Gráficos con plotnine
                   p.text-small Para ampliar el conocimiento, se sugiere ingresar al siguiente enlace, el cual contiene ejercicios e información de valor sobre analítica de datos.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://datacarpentry.org/python-ecology-lesson-es/07-visualization-ggplot-python.html" target="_blank")
                     span(style="color: #12263F !important") Visitar enlace
                     i.fas.fa-link(style="color: #12263F !important")
 

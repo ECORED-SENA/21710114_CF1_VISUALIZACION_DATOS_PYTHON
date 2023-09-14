@@ -25,7 +25,7 @@
                   h3.mb-1 Trabajar con EDA
                   p.text-small Hablando de programación y recordando que se está trabajando con Python, se encuentra con librerías denominadas Pandas, que ayudarán a manipular los datos, leerlos y transformarlos. Otra de las técnicas que le ayudará con Pandas es la visualización de los datos. Un ejemplo de ello se presenta en el anexo.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_Trabajar_con_EDA.pdf')" target="_blank")
                     span(style="color: #12263F !important") Ver PDF
                     i.fas.fa-link(style="color: #12263F !important")
     Separador
@@ -149,7 +149,7 @@
                   h3.mb-1 Ejemplos de aprendizaje supervisado
                   p.text-small Estos algoritmos se pueden aplicar a la gran mayoría de problemas con datos, gracias a las librerías que tiene Python, como scikit-learn. Se muestran algunos ejemplos en el anexo.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_Ejemplos_de_aprendizaje_supervisado.pdf')" target="_blank")
                     span(style="color: #12263F !important") Ver PDF
                     i.fas.fa-link(style="color: #12263F !important")
     Separador
