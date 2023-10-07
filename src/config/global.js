@@ -219,7 +219,7 @@ export default {
         'es la ubicación real o imaginaria que representa el centro del grupo. Cada punto de datos se asigna a cada uno de los grupos mediante la reducción de la suma de cuadrados en el grupo.',
     },
     {
-      termino: 'Dataset',
+      termino: '<em>Dataset</em>',
       significado:
         'no es más que un conjunto de datos tabulados en cualquier sistema de almacenamiento de datos estructurados.',
     },

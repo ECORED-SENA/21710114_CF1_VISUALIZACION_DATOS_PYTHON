@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162" height="87" viewBox="0 0 162 87">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_801577" data-name="Trazado 801577" d="M70.795,37.914a32.88,32.88,0,1,0-2.5,12.583,32.877,32.877,0,0,0,2.5-12.583m-32.881,0h0M70.795,37.914Z" transform="translate(-5.033 -5.033)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1065972" data-name="Grupo 1065972" transform="translate(-719 -3978)">
+    <rect id="Rectángulo_374259" data-name="Rectángulo 374259" width="162" height="50" transform="translate(719 4015)" fill="#f7cd00"/>
+    <g id="figure_1" transform="translate(765.048 3978.048)">
+      <g id="patch_1" transform="translate(-0.028 -0.028)">
+        <path id="Trazado_801574" data-name="Trazado 801574" d="M0,69.96H69.96V0H0Z" fill="none" opacity="0"/>
+      </g>
+      <g id="axes_1" transform="translate(-0.048 -0.048)">
+        <g id="patch_2">
+          <path id="Trazado_801575" data-name="Trazado 801575" d="M34.952,34.952h35a35,35,0,1,1-2.664-13.394,35.005,35.005,0,0,1,2.664,13.394Z" transform="translate(0.048 0.048)" fill="rgba(255,255,255,0.9)"/>
+        </g>
+        <g id="matplotlib.axis_1" transform="translate(2.119 2.119)">
+          <g id="xtick_1">
+            <g id="line2d_1">
+              <g id="Grupo_1065542" data-name="Grupo 1065542" clip-path="url(#clip-path)">
+                <path id="Trazado_801576" data-name="Trazado 801576" d="M83.88,83.88h32.881" transform="translate(-50.999 -50.999)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_2">
+            <g id="line2d_2">
+              <g id="Grupo_1065543" data-name="Grupo 1065543" clip-path="url(#clip-path)">
+                <path id="Trazado_801578" data-name="Trazado 801578" d="M83.88,51.377l23.25-23.25" transform="translate(-50.999 -18.496)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_3">
+            <g id="line2d_3">
+              <g id="Grupo_1065544" data-name="Grupo 1065544" clip-path="url(#clip-path)">
+                <path id="Trazado_801580" data-name="Trazado 801580" d="M83.88,37.914V5.033" transform="translate(-50.999 -5.033)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_4">
+            <g id="line2d_4">
+              <g id="Grupo_1065545" data-name="Grupo 1065545" clip-path="url(#clip-path)">
+                <path id="Trazado_801582" data-name="Trazado 801582" d="M51.377,51.377l-23.25-23.25" transform="translate(-18.496 -18.496)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_5">
+            <g id="line2d_5">
+              <g id="Grupo_1065546" data-name="Grupo 1065546" clip-path="url(#clip-path)">
+                <path id="Trazado_801584" data-name="Trazado 801584" d="M37.914,83.88H5.033" transform="translate(-5.033 -50.999)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_6">
+            <g id="line2d_6">
+              <g id="Grupo_1065547" data-name="Grupo 1065547" clip-path="url(#clip-path)">
+                <path id="Trazado_801586" data-name="Trazado 801586" d="M51.377,83.88l-23.25,23.25" transform="translate(-18.496 -50.999)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_7">
+            <g id="line2d_7">
+              <g id="Grupo_1065548" data-name="Grupo 1065548" clip-path="url(#clip-path)">
+                <path id="Trazado_801588" data-name="Trazado 801588" d="M83.88,83.88v32.881" transform="translate(-50.999 -50.999)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="xtick_8">
+            <g id="line2d_8">
+              <g id="Grupo_1065549" data-name="Grupo 1065549" clip-path="url(#clip-path)">
+                <path id="Trazado_801590" data-name="Trazado 801590" d="M83.88,83.88l23.25,23.25" transform="translate(-50.999 -50.999)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="matplotlib.axis_2" transform="translate(2.119 2.119)">
+          <g id="ytick_1">
+            <g id="line2d_9">
+              <g id="Grupo_1065550" data-name="Grupo 1065550" clip-path="url(#clip-path)">
+                <path id="Trazado_801592" data-name="Trazado 801592" d="M82.426,78.773a3.654,3.654,0,1,0-.278,1.4,3.653,3.653,0,0,0,.278-1.4" transform="translate(-45.892 -45.892)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="ytick_2">
+            <g id="line2d_10">
+              <g id="Grupo_1065551" data-name="Grupo 1065551" clip-path="url(#clip-path)">
+                <path id="Trazado_801594" data-name="Trazado 801594" d="M79.518,68.558a10.956,10.956,0,1,0-.834,4.194,10.958,10.958,0,0,0,.834-4.194" transform="translate(-35.677 -35.677)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="ytick_3">
+            <g id="line2d_11">
+              <g id="Grupo_1065552" data-name="Grupo 1065552" clip-path="url(#clip-path)">
+                <path id="Trazado_801596" data-name="Trazado 801596" d="M76.611,58.343a18.265,18.265,0,1,0-1.39,6.991,18.27,18.27,0,0,0,1.39-6.991" transform="translate(-25.462 -25.462)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="ytick_4">
+            <g id="line2d_12">
+              <g id="Grupo_1065553" data-name="Grupo 1065553" clip-path="url(#clip-path)">
+                <path id="Trazado_801598" data-name="Trazado 801598" d="M73.7,48.129a25.579,25.579,0,1,0-1.947,9.787A25.574,25.574,0,0,0,73.7,48.129" transform="translate(-15.247 -15.247)" fill="none" stroke="#e6e6e6" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="patch_3" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065554" data-name="Grupo 1065554" clip-path="url(#clip-path)">
+            <path id="Trazado_801600" data-name="Trazado 801600" d="M83.88,80.723h0l6.949-2.258a7.309,7.309,0,0,1,.358,2.258Z" transform="translate(-50.999 -47.842)" fill="rgba(0,76,255,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_4" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065555" data-name="Grupo 1065555" clip-path="url(#clip-path)">
+            <path id="Trazado_801602" data-name="Trazado 801602" d="M83.88,55.19h0l7.7-20.523a21.927,21.927,0,0,1,5.965,3.385Z" transform="translate(-50.999 -22.309)" fill="rgba(206,255,41,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_5" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065556" data-name="Grupo 1065556" clip-path="url(#clip-path)">
+            <path id="Trazado_801604" data-name="Trazado 801604" d="M57.695,44.046h0L38.963,21.609a29.228,29.228,0,0,1,12.228-6.058Z" transform="translate(-24.814 -11.165)" fill="rgba(255,104,0,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_6" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065557" data-name="Grupo 1065557" clip-path="url(#clip-path)">
+            <path id="Trazado_801606" data-name="Trazado 801606" d="M48.129,68.368h0L22.965,72.934a25.574,25.574,0,0,1,2.122-15.663Z" transform="translate(-15.247 -35.487)" fill="rgba(255,196,0,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_7" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065558" data-name="Grupo 1065558" clip-path="url(#clip-path)">
+            <path id="Trazado_801608" data-name="Trazado 801608" d="M65.474,83.88h0L53.461,92.2q-.327-.472-.616-.968t-.538-1.013Z" transform="translate(-32.593 -50.999)" fill="rgba(41,255,206,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_8" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065559" data-name="Grupo 1065559" clip-path="url(#clip-path)">
+            <path id="Trazado_801610" data-name="Trazado 801610" d="M78.2,83.88h0l3.06,18.009a18.264,18.264,0,0,1-7.125-.2Z" transform="translate(-45.316 -50.999)" fill="rgba(125,255,122,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_9" transform="translate(2.119 2.119)">
+          <g id="Grupo_1065560" data-name="Grupo 1065560" clip-path="url(#clip-path)">
+            <path id="Trazado_801612" data-name="Trazado 801612" d="M83.88,83.88h0l23.054,17.966a29.229,29.229,0,0,1-4.831,4.885Z" transform="translate(-50.999 -50.999)" fill="rgba(255,104,0,0.6)" stroke="#4c4c4c" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="patch_10" transform="translate(2.119 2.119)">
+          <path id="Trazado_801614" data-name="Trazado 801614" d="M70.795,37.914a32.88,32.88,0,1,0-2.5,12.583,32.877,32.877,0,0,0,2.5-12.583" transform="translate(-5.033 -5.033)" fill="none" stroke="#11557c" stroke-linecap="square" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

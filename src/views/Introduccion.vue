@@ -18,8 +18,8 @@
               p.mb-0 La graficación de datos permite no solo una mejor visualización de estos sino una correcta interpretación de los mismos. Es por ello que se utilizan herramientas de proyección que permitan ver, a manera de cuadros y mapas, entre otras opciones, un panorama suficiente para determinar, de alguna manera, decisiones vitales para la empresa u orientar a un equipo a alcanzar algún objetivo. El siguiente video expone de forma introductoria lo que se desarrollará en este componente formativo:
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/wMCDkknpUVw?si=PTwby29gam4YbDJz" title="Introducción a la estadística" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. Introducción a la estadística
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/-JuQjKfqYpY?si=-qNS7abUFSlP1GFH" title="Metodologías de visualización de datos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. Metodologías de visualización de datos
 
 </template>
 

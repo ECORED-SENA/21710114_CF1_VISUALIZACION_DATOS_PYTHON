@@ -89,7 +89,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.1 Listas y estructuras
     .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+      .col-xl-8.mb-4.mb-lg-0
         p Python tiene un número considerable de estructuras de datos; es por eso que se dice que las listas no son más que estructuras de datos con unas características especiales, ya que permiten almacenar cualquier tipo de datos en ellas, tales como caracteres, enteros, cadenas.
         p Entonces, una lista es un arreglo donde es posible ingresar cualquier tipo de datos, y estos están indexados para un fácil acceso.
         .row
@@ -113,7 +113,7 @@
 
               //figure
                 img(src='@/assets/curso/tema1/img8.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-4
+      .col-xl-4.d-none.d-xl-block
         figure
           img(src='@/assets/curso/tema1/img7.png', style="width: 450px" ,alt='').m-auto
     p.mb-4 De esta manera, se observa cómo se pueden insertar listas dentro de otra; por eso se dice que una lista no es más que una estructura de datos firme. Para emplear correctamente este tipo de dato, es necesario conocer lo métodos y las diferentes operaciones que con la lista pueden realizar, tal como se presenta en la siguiente imagen:
@@ -303,7 +303,7 @@
           .row.justify-content-center
             .col-auto
               figure
-                img(src='@/assets/curso/tema1/img20.png', style="width: 490px" ,alt='').m-auto
+                img(src='@/assets/curso/tema1/img20.png', style="width: 490px" ,alt='Ejemplo gráfico unidimensional de Tensor').m-auto
                 figcaption Nota. Tomado de Kumar (2020).
     p.mb-5 Para crear un array con NumPy, se puede lograr a través de una lista o con una lista de listas, y la sintaxis para crearlo es np.array(My_list), y de la misma forma que las listas, es posible acceder a un valor por medio de los índices.
     .row.justify-content-center.mb-5
@@ -312,7 +312,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 7]. Array
           figure
-            img(src='@/assets/curso/tema1/img21.png', style="width: 450px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img21.png', style="width: 450px" ,alt='Captura de pantalla del programa al crear un array con NumPy').m-auto
     p.mb-5 Utilizando los conceptos anteriores, cuando se trabaja con Google Colab, es posible dibujar una gráfica invocando las librerías Matplotlib y NumPy, con el código que se aprecia a continuación:
     .row.justify-content-center.mb-5
       .col-10.bg-c3
@@ -320,7 +320,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 8]. Dibujando una gráfica
           figure
-            img(src='@/assets/curso/tema1/img22.png', style="width: 650px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img22.png', style="width: 650px" ,alt='Captura de pantalla del programa mostrando la creación de una gráfica.').m-auto
     p.mb-5 De igual forma, también se puede trazar gráficas fácilmente con Python al tener las herramientas correctas e invocando las librerías correspondientes. La siguiente es otra gráfica, la cual se obtiene con Matplotlib y NumPy:
     .row.justify-content-center
       .col-10.bg-c3
@@ -328,7 +328,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 9]. Dibujando una gráfica
           figure
-            img(src='@/assets/curso/tema1/img23.png', style="width: 550px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img23.png', style="width: 550px" ,alt='Captura de pantalla del programa mostrando la creación de una gráfica con Matplotlib y NumPy.').m-auto
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido
@@ -343,7 +343,7 @@
         p.mb-0 A continuación se expone cómo es posible realizar lo indicado:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/dkUlltYfeMo?si=JFNwLGKWFCpmfuIf" title="Condicionales y Pandas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/dkUlltYfeMo?si=iXx3FKBQiuT-8LUs" title="Condicionales y Pandas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Condicionales y Pandas
     Separador
     #t_1_4
@@ -363,7 +363,7 @@
                 .col
                   p.mb-0 #[b Se podría definir un módulo de operaciones (.py) con las funciones de suma() y resta().]
               figure
-                img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='').m-auto
+                img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='Captura de pantalla donde se muestran las operaciones de suma y resta').m-auto
       .col-lg-6
         .row.mx-1.my-3
           .col-12.bg-c7
@@ -375,7 +375,7 @@
                 .col
                   p.mb-0 #[b Una vez se haya definido ese módulo, se puede importar en otro archivo utilizando import, e importar lo que contenga.]
               figure
-                img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='').m-auto
+                img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra el uso de la función import').m-auto
       .col-lg-6
         .row.mx-1.my-3
           .col-12.bg-c7
@@ -387,7 +387,7 @@
                 .col
                   p.mb-0 #[b Ahora bien, si se prefiere, se pueden importar los módulos de interés.]
               figure
-                img(src='@/assets/curso/tema1/img27.png', style="width: 450px" ,alt='').m-auto
+                img(src='@/assets/curso/tema1/img27.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra la importación de módulos de interés.').m-auto
       .col-lg-6
         .row.mx-1.my-3
           .col-12.bg-c7
@@ -399,7 +399,7 @@
                 .col
                   p.mb-0 #[b También, se puede importar todo el módulo utilizando “*” y no mimodulo.*. De esta forma, se pueden agrupar funciones en paquetes y que estos puedan ser utilizados por otros módulos.]
               figure
-                img(src='@/assets/curso/tema1/img28.png', style="width: 450px" ,alt='').m-auto
+                img(src='@/assets/curso/tema1/img28.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra la importación de todo el módulo.').m-auto
     Separador
     #t_1_5
     .titulo-segundo.color-acento-contenido
@@ -426,19 +426,19 @@
           ul.lista-ul.mb-0
             li.mb-0
               i.lista-ul__vineta
-              | #[b Identificar relaciones, las sentencias y los patrones.]
+              span #[b Identificar relaciones, las sentencias y los patrones.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Inspeccionar datos para deducir nuevas tendencias o conocimientos.]
+              span #[b Inspeccionar datos para deducir nuevas tendencias o conocimientos.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Mejorar el entendimiento de una idea o tendencia.]
+              span #[b Mejorar el entendimiento de una idea o tendencia.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Interpretar de manera concreta la observación de evidencias reales y su variabilidad en el tiempo.]
+              span #[b Interpretar de manera concreta la observación de evidencias reales y su variabilidad en el tiempo.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Posibilitar retener una idea.]
+              span #[b Posibilitar retener una idea.]
     p Los anteriores tips son los necesarios a tener presente a la hora de realizar una visualización precisa de lo que se quiere realmente mostrarle al cliente y que este interprete de manera eficaz.
     p Es importante determinar que para analizar datos tubulares en Python se debe hacer uso de las librerías de análisis de datos denominadas Pandas, las cuales generan gráficos de alta calidad con Matplotlib; adicionalmente, se asocian con bibliotecas que usan arrays de NumPy, que, como se sabe, es otra biblioteca de Python.
     p.mb-5 Al trabajar con Python, este no carga las bibliotecas, este proceso toca hacerlo con el enunciado import, para acceder a las funciones de la biblioteca; la sintaxis es la siguiente: import nombredelabiblioteca; además de eso, se le puede agregar una abreviación para no digitar los comandos con nombres extensos, de la siguiente manera, as abreviación.
@@ -448,7 +448,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 10]. Sintaxis
           figure
-            img(src='@/assets/curso/tema1/img30.png', style="width: 280px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img30.png', style="width: 280px" ,alt='Captura de pantalla del programa ejecutando abreviaturas en la sintaxis, así: Import pandas as pd').m-auto
     p.mb-5 Los Dataframe juegan una importante función en la lectura de datos y, sobre todo, en la selección de los mismos. Cuando se tenga el archivo con la información que se desea tomar lectura, de extensión .CSV, que es la extensión para abrir directamente desde un Dataframe, se realiza de la siguiente manera:
     .row.justify-content-center.mb-5
       .col-10.bg-c3
@@ -456,7 +456,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 11]. Dataframe
           figure
-            img(src='@/assets/curso/tema1/img31.png', style="width: 550px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img31.png', style="width: 550px" ,alt='Captura de pantalla del programa mostrando la lectura de datos a través de un Dataframe.').m-auto
     p.mb-5 En cuanto a la visualización de datos, después de introducir parámetros según el requerimiento o los datos que son objeto de proyección, aquí se visualizan mediante la librería plotnine:
     .row.justify-content-center.mb-5
       .col-10.bg-c3
@@ -464,7 +464,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 12]. Visualización mediante plotnine
           figure
-            img(src='@/assets/curso/tema1/img32.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img32.png', style="width: 850px" ,alt='Captura de pantalla del programa evidenciando la visualización de datos a través de plotnine.').m-auto
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario1.p-3

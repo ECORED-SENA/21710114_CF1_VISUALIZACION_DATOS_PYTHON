@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Introducción a la estadística
-    p.mb-5 Hoy en día, es común escuchar el término Big Data y, con eso, la necesidad de conocer acerca de la probabilidad y estadística como elementos imprescindibles. Los temas de minería de datos, machine learning, más los millones de datos con los que se cuenta a diario, es lo que hoy se conoce como la ciencia de datos en conjunto. En este mundo, Python es el lenguaje potente que más permite trabajar con los datos y analizarlos de manera estadística.
+    p.mb-5 Hoy en día, es común escuchar el término #[em Big Data] y, con eso, la necesidad de conocer acerca de la probabilidad y estadística como elementos imprescindibles. Los temas de minería de datos, machine learning, más los millones de datos con los que se cuenta a diario, es lo que hoy se conoce como la ciencia de datos en conjunto. En este mundo, Python es el lenguaje potente que más permite trabajar con los datos y analizarlos de manera estadística.
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.align-items-center.bg-c2
@@ -25,7 +25,9 @@
         p.mb-0 La estadística juega un rol importante en muchas disciplinas científicas; de allí que ha jugado un papel importante en la toma de decisiones, pues existe innumerable información valiosa entre los datos. La estadística brinda opciones o métodos para extraer esta información adecuadamente y entenderla, verificando la calidad de esta. Se encuentra dividida en dos ramas: estadística descriptiva y estadística inferencial, como se ve en el siguiente video:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/wMCDkknpUVw?si=An-B2fsRQCp3k692" title="Introducción a la estadística" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Introducción a la estadística
+
     p.mb-5 Las siguientes son algunas actividades básicas en el análisis estadístico:
     .row.justify-content-center
       .col-lg-6.bg-c8.mb-4.mb-lg-0
@@ -33,19 +35,19 @@
           ul.lista-ul.mb-0
             li.mb-0
               i.lista-ul__vineta
-              | #[b Diseño del análisis.]
+              span #[b Diseño del análisis.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Exploración de datos.]
+              span #[b Exploración de datos.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Armado del modelo.]
+              span #[b Armado del modelo.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Realizar estimaciones.]
+              span #[b Realizar estimaciones.]
             li.mb-0
               i.lista-ul__vineta
-              | #[b Contraste de la hipótesis.]
+              span #[b Contraste de la hipótesis.]
       .col-lg-6
         figure
           img(src='@/assets/curso/tema2/img2.png', style="width: 590px" ,alt='').m-auto
@@ -59,22 +61,22 @@
         p #[b Media aritmética]
         p Indica el resultado de haber sumado todos los datos y dividirlos por el total de los elementos sumados. Se representa por la letra griega μ. Dicho de otra manera, si tenemos una muestra de n valores Xi, la media aritmética μ, es la suma de los valores divididos por el número de elementos, así:
         figure
-          img(src='@/assets/curso/tema2/img2.svg', style="width: 160px" ,alt='').m-auto
+          img(src='@/assets/curso/tema2/img2.svg', style="width: 160px" ,alt='Fórmula de la media aritmética en la que se suman todos los valores divididos por el total de los elementos.').m-auto
       .tarjeta.color-acento-botones.p-4
         p #[b Desviación respecto a la media]
         p La definición puntual de la desviación respecto a la media enfatiza en la diferencia en el valor absoluto entre cada valor de la variable estadística y la media aritmética.
         figure
-          img(src='@/assets/curso/tema2/img3.svg', style="width: 160px" ,alt='').m-auto
+          img(src='@/assets/curso/tema2/img3.svg', style="width: 160px" ,alt='Fórmula de la desviación respecto a la media, en la que se resta el valor absoluto y la media aritmética.').m-auto
       .tarjeta.color-acento-botones.p-4
         p #[b Varianza]
         p Es la media aritmética del cuadrado de las desviaciones respecto a la media de una distribución estadística. La varianza intenta describir la dispersión de los datos. Se representa como σ2.
         figure
-          img(src='@/assets/curso/tema2/img4.svg', style="width: 160px" ,alt='').m-auto
+          img(src='@/assets/curso/tema2/img4.svg', style="width: 160px" ,alt='Fórmula de la varianza, la cual es el promedio de las distancias al cuadrado que van desde la distribución a la media.').m-auto
       .tarjeta.color-acento-botones.p-4
         p #[b Desviación típica]
         p Es la raíz cuadrada de la varianza. Se representa con la letra griega σ.
         figure
-          img(src='@/assets/curso/tema2/img5.svg', style="width: 160px" ,alt='').m-auto
+          img(src='@/assets/curso/tema2/img5.svg', style="width: 160px" ,alt='Fórmula de la desviación típica y se escribe como la raíz cuadrada de la varianza.').m-auto
       .tarjeta.color-acento-botones.p-4
         p #[b Moda]
         p La moda es el valor que tiene mayor frecuencia absoluta. Se representa con M0.
@@ -88,7 +90,7 @@
         p #[b Covarianza]
         p Es el equivalente de la varianza aplicado a una variable bidimensional. Es la media aritmética de los productos de las desviaciones de cada una de las variables respecto a sus medias respectivas. La covarianza indica el sentido de la correlación entre las variables: si σxy>0, la correlación es directa; si σxy<0, la correlación es inversa.
         figure
-          img(src='@/assets/curso/tema2/img6.svg', style="width: 240px" ,alt='').m-auto
+          img(src='@/assets/curso/tema2/img6.svg', style="width: 240px" ,alt='Fórmula de la covarianza. Se calcula la media de cada variable por separado. Luego, se halla la diferencia entre cada valor, se multiplican y se suma el resultado obtenido para al final dividirlo entre el número total de datos.').m-auto
       .tarjeta.color-acento-botones.p-4
         p #[b Valor atípico]
         p Es una observación que se aleja demasiado de la moda; está muy lejos de la tendencia principal del resto de los datos. Pueden ser causados por errores en la recolección de datos o medidas inusuales. Generalmente, se recomienda eliminarlos del conjunto de datos.
@@ -108,18 +110,79 @@
                 .p-4
                   p.mb-0 De esta manera, hoy se puede decir que es un método que va de la mano con los sucesos y se enfoca en ellos, recolectando información y conectando los datos entre sí, de manera que sea posible conformar una información precisa y contundente; gracias a este tipo de análisis, se puede saber más acerca de una población en especial y tomar algún tipo de determinación según la información, tanto cualitativa como cuantitativa.
         p.mb-0 Python maneja unas librerías que facilitan el manejo de las matemáticas y la estadística; no es la excepción y, para fortuna de todos, la comunidad de Python es tan grande que es normal siempre encontrar librerías que solucionan cualquier situación. En ese orden de ideas, Python ofrece un abanico de librerías que ayudan a la solución de problemas estadísticos y de probabilidad; las librerías ideales para este tipo de ejercicios son las siguientes:
-    .row.justify-content-center
-      .col-12.bg-c3
-        .p-4
-          figure
-            img(src='@/assets/curso/tema2/img8.svg', style="width: 950px" ,alt='').m-auto
+
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-1.svg', alt='')
+
+          h3.text-center NumPy
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-2.svg', alt='')
+
+          h3.text-center scipy.stats
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-3.svg', alt='')
+
+          h3.text-center statsmodels
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-4.svg', alt='')
+
+          h3.text-center Matplotlib
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-5.svg', alt='')
+
+          h3.text-center Seaborn
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-6.svg', alt='')
+
+          h3.text-center Pandas
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema2/img21-7.svg', alt='')
+
+          h3.text-center pyMC
+
     Separador
+
     #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Inferencia estadística
     .row.align-items-center.mb-5
       .col-md-auto
-        figure
+        figure.mb-4.mb-xl-0
           img(src='@/assets/curso/tema2/img9.svg', style="width: 170px" ,alt='').m-auto
       .col
         p.mb-0 Según López Briega (2018), “La estadística inferencial estudia cómo sacar conclusiones generales para toda la población a partir del estudio de una muestra y el grado de fiabilidad o significación de los resultados obtenidos. Sus principales herramientas son el #[b muestreo, la estimación de parámetros y el contraste de hipótesis”].
