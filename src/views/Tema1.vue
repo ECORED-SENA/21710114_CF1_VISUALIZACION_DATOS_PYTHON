@@ -31,8 +31,8 @@
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 350px" ,alt='').m-auto
       .col-lg-9
-        p Colab puede facilitar su trabajo, ya sea estudiante, científico de datos o investigador de IA. Google Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube. En ese sentido, Python permite diferentes ambientes en la programación, como la orientada a objetos y la funcional, pero lo más relevante de esta parte es que se utiliza como un lenguaje de scripts o intérprete.
-        p Python tiene una funcionalidad de un modo interactivo, que trabaja de la mano con un intérprete de línea de comando que, al lanzar una orden, se obtiene un resultado. En sus inicios, las funcionalidades se quedaron limitadas con IPython, que más adelante evolucionó a Jupyter. Jupyter es un entorno que permite desarrollar líneas de Python dinámicamente, funciona como una aplicación local, donde se emula la función cliente servidor y posibilita la ejecución de código; de esa manera, su interactividad posibilita la interpretación de su código de manera tal que pareciera la lectura de un documento a los ojos de cualquier persona.
+        p Colab puede facilitar su trabajo, ya sea estudiante, científico de datos o investigador de IA. Google Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube. En ese sentido, Python permite diferentes ambientes en la programación, como la orientada a objetos y la funcional, pero lo más relevante de esta parte es que se utiliza como un lenguaje de #[em scripts] o intérprete.
+        p Python tiene una funcionalidad de un modo interactivo, que trabaja de la mano con un intérprete de línea de comando que, al lanzar una orden, se obtiene un resultado. En sus inicios, las funcionalidades se quedaron limitadas con IPython, que más adelante evolucionó a Jupyter. Jupyter es un entorno que permite desarrollar líneas de Python dinámicamente, funciona como una aplicación local, donde se emula la función cliente-servidor y posibilita la ejecución de código; de esa manera, su interactividad posibilita la interpretación de su código de manera tal que pareciera la lectura de un documento a los ojos de cualquier persona.
         p.mb-0 En el siguiente recurso se observa la implementación y ejecución de Colab.
 
 
@@ -42,7 +42,7 @@
           .row
             .col-lg-6.mb-4.mb-lg-0
               p #[b Acceso a Google Colaboratory]
-              p Google Colab es de carácter gratuito y para acceder a él, no es más que entrar a nuestra cuenta de Google, hacer clic derecho en nuestro drive, ir al botón de nuevo y luego al submenú de más para seleccionar Colaboratory; creando así un nuevo cuaderno.
+              p Google Colab es de carácter gratuito y para acceder a él, no es más que entrar a nuestra cuenta de Google, hacer clic derecho en nuestro Drive, ir al botón de nuevo y luego al submenú de más para seleccionar Colaboratory; creando así un nuevo cuaderno.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img2.png', style="width: 450px" ,alt='').m-auto
@@ -56,22 +56,22 @@
           .row
             .col-lg-6.mb-4.mb-lg-0
               p #[b Codificando el cuaderno]
-              p La composición de un cuaderno está dada por celdas, ya que estas son la mínima parte de ejecución dentro de un cuaderno, es ahí donde escribimos nuestro código y lo ejecutamos, se puede realizar pulsando el botón de play ubicado a la izquierda de la línea o celda. Una vez realizada la ejecución, en la celda inferior, encontraremos el resultado de la ejecución inmediatamente anterior.
+              p La composición de un cuaderno está dada por celdas, ya que estas son la mínima parte de ejecución dentro de un cuaderno, es ahí donde escribimos nuestro código y lo ejecutamos, se puede realizar pulsando el botón de #[em play] ubicado a la izquierda de la línea o celda. Una vez realizada la ejecución, en la celda inferior, encontraremos el resultado de la ejecución inmediatamente anterior.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img4.png', style="width: 450px" ,alt='').m-auto
           .row
             .col-lg-6.mb-4.mb-lg-0
               p #[b Ejecución]
-              p Se puede observar que las celdas de Colab son independientes, pero todas ellas trabajan con el mismo kernel; hay que recordar que un kernel es el corazón de un sistema operativo, pero, a su vez, no solo es el núcleo de un sistema, sino también un programa que controla todos los accesos al procesador y a la memoria.
-              p Aunque el kernel, que gobierna todas las celdas, es único, las celdas se pueden ejecutar independientemente o estar conectadas por variables que se representen en diferentes partes del documento. La forma de ejecución que hace Colab es de abajo hacia arriba, y el número que aparece en la parte izquierda hace referencia al orden de ejecución.
+              p Se puede observar que las celdas de Colab son independientes, pero todas ellas trabajan con el mismo #[em kernel]; hay que recordar que un #[em kernel] es el corazón de un sistema operativo, pero, a su vez, no solo es el núcleo de un sistema, sino también un programa que controla todos los accesos al procesador y a la memoria.
+              p Aunque el #[em kernel], que gobierna todas las celdas, es único, las celdas se pueden ejecutar independientemente o estar conectadas por variables que se representen en diferentes partes del documento. La forma de ejecución que hace Colab es de abajo hacia arriba, y el número que aparece en la parte izquierda hace referencia al orden de ejecución.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img5.png', style="width: 450px" ,alt='').m-auto
           .row
             .col-lg-6.mb-4.mb-lg-0
               p #[b Versión de Python]
-              p Normalmente, un cuaderno en Colab utiliza el kernel con la versión de Python 3, pero si se quiere cambiar la versión de Python a la versión 2, se puede realizar ingresando al menú archivo y nos da la opción en ese apartado.
+              p Normalmente, un cuaderno en Colab utiliza el #[em kernel] con la versión de Python 3, pero si se quiere cambiar la versión de Python a la versión 2, se puede realizar ingresando al menú archivo y nos da la opción en ese apartado.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/img6.png', style="width: 450px" ,alt='').m-auto
@@ -116,7 +116,7 @@
       .col-xl-4.d-none.d-xl-block
         figure
           img(src='@/assets/curso/tema1/img7.png', style="width: 450px" ,alt='').m-auto
-    p.mb-4 De esta manera, se observa cómo se pueden insertar listas dentro de otra; por eso se dice que una lista no es más que una estructura de datos firme. Para emplear correctamente este tipo de dato, es necesario conocer lo métodos y las diferentes operaciones que con la lista pueden realizar, tal como se presenta en la siguiente imagen:
+    p.mb-4 De esta manera, se observa cómo se pueden insertar listas dentro de otra; por eso se dice que una lista no es más que una estructura de datos firme. Para emplear correctamente este tipo de dato, es necesario conocer los métodos y las diferentes operaciones que con la lista pueden realizar, tal como se presenta en la siguiente imagen:
     .row.justify-content-center.mb-4
       .col-10.bg-c3
         .p-4
@@ -227,7 +227,7 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 120px" ,alt='').m-auto
           .col
             .p-4
-              p.mb-0 Se han mencionado los métodos más utilizados en Python, uno de los lenguajes de programación predilectos hoy por hoy por la comunidad desarrolladora del mundo, por su gran versatilidad y facilidad de interpretación, lo que también lo ha llevado a grandes controversias por esta misma comunidad.
+              p.mb-0 Se han mencionado los métodos más utilizados en Python, uno de los lenguajes de programación predilectos hoy por hoy, por la comunidad desarrolladora del mundo, por su gran versatilidad y facilidad de interpretación, lo que también lo ha llevado a grandes controversias por esta misma comunidad.
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
@@ -246,7 +246,7 @@
         .row
           .col-12.bg-c6
             .p-4
-              p.mb-0 NumPy es una poderosa herramienta que no solamente es utilizada en la parte científica, sino como una recolectora de grandes flujos de datos, y gracias a eso, se puede conectar con múltiples bases de datos, un punto más a su favor, que la hacen más atractiva; de hecho, hay librerías, como Pandas, que están construidas sobre NumPy. Una de sus principales características es el manejo rápido de datos y el manejo de estructuras, que lo denominan por medio de arrays o arreglos, lo que en Python se llaman listas, pero opera los datos de una manera más ligera y eficiente.
+              p.mb-0 NumPy es una poderosa herramienta que no solamente es utilizada en la parte científica, sino como una recolectora de grandes flujos de datos, y gracias a eso, se puede conectar con múltiples bases de datos, un punto más a su favor, que la hacen más atractiva; de hecho, hay librerías, como Pandas, que están construidas sobre NumPy. Una de sus principales características es el manejo rápido de datos y el manejo de estructuras, que lo denominan por medio de #[em arrays] o arreglos, lo que en Python se llaman listas, pero opera los datos de una manera más ligera y eficiente.
     p.mb-5 La forma de almacenar los datos en NumPy es por medio de arreglos, lo que en Python son listas. La diferencia es que NumPy lo hace de una manera más rápida; el método invocado para la asignación de estos dato es array(), perteneciente a la librería NumPy. De esa manera, es posible ver, a continuación, cómo se estructura un arreglo en NumPy:
     .row.justify-content-center.mb-5
       .col-10.bg-c3
@@ -293,8 +293,8 @@
                   | np.array(my_matrix)
           //figure
             img(src='@/assets/curso/tema1/img19.png', style="width: 390px" ,alt='').m-auto
-    p Los arreglos de NumPy se pueden expandir para trabajar con matrices de uno, dos o más dimensiones; las operaciones que se pueden hacer con esta librería son extensas y es por eso que se mostrarán algunas de las más utilizadas, para ver cómo es el trabajo y la sintaxis correcta utilizando NumPy. Es común que las listas de Python tengan gran similitud con los arreglos de NumPy, pero su gran diferencia radica en que son más rápidos, menos pesados y permiten generar arrays n-dimensionales.
-    p.mb-5 Los arrays pueden variar en sus presentaciones unidimensional o vector, bidimensional o matriz y tensor.
+    p Los arreglos de NumPy se pueden expandir para trabajar con matrices de uno, dos o más dimensiones; las operaciones que se pueden hacer con esta librería son extensas y es por eso que se mostrarán algunas de las más utilizadas, para ver cómo es el trabajo y la sintaxis correcta utilizando NumPy. Es común que las listas de Python tengan gran similitud con los arreglos de NumPy, pero su gran diferencia radica en que son más rápidos, menos pesados y permiten generar #[em arrays] n-dimensionales.
+    p.mb-5 Los #[em arrays] pueden variar en sus presentaciones unidimensional o vector, bidimensional o matriz y tensor.
     .row.justify-content-center.mb-5
       .col-10.bg-c3
         .p-4
@@ -305,12 +305,12 @@
               figure
                 img(src='@/assets/curso/tema1/img20.png', style="width: 490px" ,alt='Ejemplo gráfico unidimensional de Tensor').m-auto
                 figcaption Nota. Tomado de Kumar (2020).
-    p.mb-5 Para crear un array con NumPy, se puede lograr a través de una lista o con una lista de listas, y la sintaxis para crearlo es np.array(My_list), y de la misma forma que las listas, es posible acceder a un valor por medio de los índices.
+    p.mb-5 Para crear un #[em array] con NumPy, se puede lograr a través de una lista o con una lista de listas, y la sintaxis para crearlo es np.array(My_list), y de la misma forma que las listas, es posible acceder a un valor por medio de los índices.
     .row.justify-content-center.mb-5
       .col-10.bg-c3
         .p-4
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 7]. Array
+            p.mb-0 #[b Figura 7]. #[em Array]
           figure
             img(src='@/assets/curso/tema1/img21.png', style="width: 450px" ,alt='Captura de pantalla del programa al crear un array con NumPy').m-auto
     p.mb-5 Utilizando los conceptos anteriores, cuando se trabaja con Google Colab, es posible dibujar una gráfica invocando las librerías Matplotlib y NumPy, con el código que se aprecia a continuación:
@@ -338,8 +338,8 @@
         figure
           img(src='@/assets/curso/tema1/img24.png', style="width: 450px" ,alt='').m-auto
       .col-lg-8
-        p Según Datacarpentry.org (2001), “Un DataFrame es una estructura de datos con dos dimensiones, en la cual se pueden guardar datos de distintos tipos (como caracteres, enteros, valores de punto flotante, factores y más) en columnas”.
-        p Es similar a una hoja de cálculo o una tabla de SQL, o el data.frame de R. Un DataFrame siempre tiene un índice (con inicio en 0). El índice refiere a la posición de un elemento en la estructura de datos. Resulta un poco complicado hablar de Pandas y sus condicionales sin antes hablar un poco de lo que es un Dataframe. Sin más preámbulos, un Dataframe es un marco de trabajo, donde se estipulan unos parámetros para poder ingresar los datos y estos, a su vez, ser representados con estilo. Estos datos son etiquetados, tanto en filas como en columnas.
+        p Según Datacarpentry.org (2001), “Un #[em DataFrame] es una estructura de datos con dos dimensiones, en la cual se pueden guardar datos de distintos tipos (como caracteres, enteros, valores de punto flotante, factores y más) en columnas”.
+        p Es similar a una hoja de cálculo o una tabla de SQL, o el data.frame de R. Un #[em DataFrame] siempre tiene un índice (con inicio en 0). El índice refiere a la posición de un elemento en la estructura de datos. Resulta un poco complicado hablar de Pandas y sus condicionales sin antes hablar un poco de lo que es un #[em DataFrame]. Sin más preámbulos, un #[em DataFrame] es un marco de trabajo, donde se estipulan unos parámetros para poder ingresar los datos y estos, a su vez, ser representados con estilo. Estos datos son etiquetados, tanto en filas como en columnas.
         p.mb-0 A continuación se expone cómo es posible realizar lo indicado:
     figure
       .video
@@ -440,7 +440,7 @@
               i.lista-ul__vineta
               span #[b Posibilitar retener una idea.]
     p Los anteriores tips son los necesarios a tener presente a la hora de realizar una visualización precisa de lo que se quiere realmente mostrarle al cliente y que este interprete de manera eficaz.
-    p Es importante determinar que para analizar datos tubulares en Python se debe hacer uso de las librerías de análisis de datos denominadas Pandas, las cuales generan gráficos de alta calidad con Matplotlib; adicionalmente, se asocian con bibliotecas que usan arrays de NumPy, que, como se sabe, es otra biblioteca de Python.
+    p Es importante determinar que para analizar datos tubulares en Python se debe hacer uso de las librerías de análisis de datos denominadas Pandas, las cuales generan gráficos de alta calidad con Matplotlib; adicionalmente, se asocian con bibliotecas que usan #[em arrays] de NumPy, que, como se sabe, es otra biblioteca de Python.
     p.mb-5 Al trabajar con Python, este no carga las bibliotecas, este proceso toca hacerlo con el enunciado import, para acceder a las funciones de la biblioteca; la sintaxis es la siguiente: import nombredelabiblioteca; además de eso, se le puede agregar una abreviación para no digitar los comandos con nombres extensos, de la siguiente manera, as abreviación.
     .row.justify-content-center.mb-5
       .col-10.bg-c3
@@ -449,12 +449,12 @@
             p.mb-0 #[b Figura 10]. Sintaxis
           figure
             img(src='@/assets/curso/tema1/img30.png', style="width: 280px" ,alt='Captura de pantalla del programa ejecutando abreviaturas en la sintaxis, así: Import pandas as pd').m-auto
-    p.mb-5 Los Dataframe juegan una importante función en la lectura de datos y, sobre todo, en la selección de los mismos. Cuando se tenga el archivo con la información que se desea tomar lectura, de extensión .CSV, que es la extensión para abrir directamente desde un Dataframe, se realiza de la siguiente manera:
+    p.mb-5 Los #[em DataFrame] juegan una importante función en la lectura de datos y, sobre todo, en la selección de los mismos. Cuando se tenga el archivo con la información que se desea tomar lectura, de extensión .CSV, que es la extensión para abrir directamente desde un #[em DataFrame], se realiza de la siguiente manera:
     .row.justify-content-center.mb-5
       .col-10.bg-c3
         .p-4
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 11]. Dataframe
+            p.mb-0 #[b Figura 11]. #[em DataFrame]
           figure
             img(src='@/assets/curso/tema1/img31.png', style="width: 550px" ,alt='Captura de pantalla del programa mostrando la lectura de datos a través de un Dataframe.').m-auto
     p.mb-5 En cuanto a la visualización de datos, después de introducir parámetros según el requerimiento o los datos que son objeto de proyección, aquí se visualizan mediante la librería plotnine:

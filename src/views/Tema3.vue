@@ -160,7 +160,7 @@
     .row.mb-4
       .col-lg-8.mb-4.mb-lg-0
         p Mientras que en el aprendizaje supervisado se tienen salidas con etiquetas para el entrenamiento de los algoritmos, en el no supervisado no se sabe qué resultado esperar; de esa manera, entender el no supervisado se convierte en un ejercicio intuitivo, pues con este modelo es difícil saber si se ha realizado un trabajo exitoso o si aún es posible extraer datos de él.
-        p En el aprendizaje no supervisado, el reto es agrupar segmentos de datos, a eso se le llama clustering de datos, cuyo objetivo es encontrar grupos homogéneos de datos, ya que esta homogeneidad permite realizar análisis de comportamiento de estos grupos, para así poder sacar conclusiones y sacar posibles futuros datos. Estos algoritmos se basan en la distancia entre observaciones; los algoritmos más utilizados en el aprendizaje no supervisado son:
+        p En el aprendizaje no supervisado, el reto es agrupar segmentos de datos, a eso se le llama #[em clustering] de datos, cuyo objetivo es encontrar grupos homogéneos de datos, ya que esta homogeneidad permite realizar análisis de comportamiento de estos grupos, para así poder sacar conclusiones y sacar posibles futuros datos. Estos algoritmos se basan en la distancia entre observaciones; los algoritmos más utilizados en el aprendizaje no supervisado son:
         .row
           .col-12.bg-c5
             .p-3

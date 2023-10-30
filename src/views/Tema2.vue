@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Introducción a la estadística
-    p.mb-5 Hoy en día, es común escuchar el término #[em Big Data] y, con eso, la necesidad de conocer acerca de la probabilidad y estadística como elementos imprescindibles. Los temas de minería de datos, machine learning, más los millones de datos con los que se cuenta a diario, es lo que hoy se conoce como la ciencia de datos en conjunto. En este mundo, Python es el lenguaje potente que más permite trabajar con los datos y analizarlos de manera estadística.
+    p.mb-5 Hoy en día, es común escuchar el término #[em Big Data] y, con eso, la necesidad de conocer acerca de la probabilidad y estadística como elementos imprescindibles. Los temas de minería de datos, #[em machine learning], más los millones de datos con los que se cuenta a diario, es lo que hoy se conoce como la ciencia de datos en conjunto. En este mundo, Python es el lenguaje potente que más permite trabajar con los datos y analizarlos de manera estadística.
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.align-items-center.bg-c2

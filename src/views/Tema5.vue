@@ -154,7 +154,7 @@
     .row.bg-c13
       .col-12
         .p-5
-          p Según Google Colaboratory (2022), “Es una API de análisis de datos en columnas, ideal para manipular y analizar datos de entrada”. Además, muchos marcos de trabajo de AA admiten las estructuras de datos Pandas como entradas. Pandas es muy popular, es una librería por preferencia dentro de la comunidad desarrolladora, es una de las más versátiles entre las de código abierto y más aún cuando se habla de temas como ciencia de datos y machine learning por su poderío en las estructuras que ofrece y la facilidad para manejar grandes cantidades de datos.
+          p Según Google Colaboratory (2022), “Es una API de análisis de datos en columnas, ideal para manipular y analizar datos de entrada”. Además, muchos marcos de trabajo de AA admiten las estructuras de datos Pandas como entradas. Pandas es muy popular, es una librería por preferencia dentro de la comunidad desarrolladora, es una de las más versátiles entre las de código abierto y más aún cuando se habla de temas como ciencia de datos y #[em machine learning] por su poderío en las estructuras que ofrece y la facilidad para manejar grandes cantidades de datos.
           .row.justify-content-between.mb-5
             .col-auto.bg-c6
               .p-3
@@ -172,12 +172,12 @@
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema5/img12.svg', style="width: 120px" ,alt='').m-auto
-                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y DataFrame. Las Series hacen referencia a un array unidimensional que puede almacenar cualquier tipo de dato.
+                p.text-center.mb-0 Hay dos estructuras poderosas dentro de la librería de datos Pandas: Series y #[em DataFrame]. Las Series hacen referencia a un #[em array] unidimensional que puede almacenar cualquier tipo de dato.
             .col-10.col-md-8.col-lg-4.bg-c14
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema5/img12.svg', style="width: 120px" ,alt='').m-auto
-                p.text-center.text-white.mb-0 Los DataFrame son bidimensionales, con estructuras que pueden albergar cualquier tipo de dato; a su vez, se pueden interpretar como series.
+                p.text-center.text-white.mb-0 Los #[em DataFrame] son bidimensionales, con estructuras que pueden albergar cualquier tipo de dato; a su vez, se pueden interpretar como series.
     h3.mb-4 Datos geográficos
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 7]. Series y #[i DataFrames]
@@ -200,7 +200,7 @@
       .col-lg-8
         figure
           img(src='@/assets/curso/tema5/img26.png', style="width: 775px" ,alt='').m-auto
-    p.mb-5 Pyplot es muy versátil y permite crear gráficas automatizando sus ejes cuando son creados. Por otro lado, pylab no se queda atrás con sus bondades, ya que trae algo de pyplot para la creación de gráficos con la versatilidad de Numpy y realizar cálculos con arrays con una etiqueta muy particular de Matlab.
+    p.mb-5 Pyplot es muy versátil y permite crear gráficas automatizando sus ejes cuando son creados. Por otro lado, pylab no se queda atrás con sus bondades, ya que trae algo de pyplot para la creación de gráficos con la versatilidad de Numpy y realizar cálculos con #[em arrays] con una etiqueta muy particular de Matlab.
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0
         figure

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Metodologías de visualización de datos',
     descripcionCurso:
-      'Python es un lenguaje de programación muy versátil que se caracteriza por su facilidad en el manejo de scripts para trabajar con datos de manera fácil y efectiva, por eso la visualización de los datos utilizando Python es una de las formas más efectivas para el estudio de las ciencias de datos junto a sus bibliotecas que permiten realizar muchas operaciones.',
+      'Python es un lenguaje de programación muy versátil que se caracteriza por su facilidad en el manejo de <em>scripts</em> para trabajar con datos de manera fácil y efectiva, por eso la visualización de los datos utilizando Python es una de las formas más efectivas para el estudio de las ciencias de datos junto a sus bibliotecas que permiten realizar muchas operaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -236,7 +236,7 @@ export default {
     {
       termino: 'IPython',
       significado:
-        'es un <em>shell</em> interactivo que añade funcionalidades extra al modo interactivo incluido con Python, como resaltado de líneas y errores mediante colores, una sintaxis adicional para el shell, autocompletado mediante tabulador de variables, módulos y atributos.',
+        'es un <em>shell</em> interactivo que añade funcionalidades extra al modo interactivo incluido con Python, como resaltado de líneas y errores mediante colores, una sintaxis adicional para el <em>shell</em>, autocompletado mediante tabulador de variables, módulos y atributos.',
     },
     {
       termino: 'Jupyter',
@@ -246,7 +246,7 @@ export default {
     {
       termino: '<em>Machine Learning</em>',
       significado:
-        '<em>Machine Learning</em> es una forma de la IA que permite a un sistema aprender de los datos en lugar de aprender mediante la programación explícita. Sin embargo, machine learning no es un proceso sencillo. Conforme el algoritmo ingiere datos de entrenamiento, es posible producir modelos más precisos basados en datos. Un modelo de machine learning es la salida de información que se genera cuando entrena su algoritmo de machine learning con datos. Después del entrenamiento, al proporcionar un modelo con una entrada, se le dará una salida.',
+        'es una forma de la IA que permite a un sistema aprender de los datos en lugar de aprender mediante la programación explícita. Sin embargo, <em>machine learning</em> no es un proceso sencillo. Conforme el algoritmo ingiere datos de entrenamiento, es posible producir modelos más precisos basados en datos. Un modelo de <em>machine learning</em> es la salida de información que se genera cuando entrena su algoritmo de <em>machine learning</em> con datos. Después del entrenamiento, al proporcionar un modelo con una entrada, se le dará una salida.',
     },
   ],
   referencias: [
@@ -377,7 +377,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
