@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="87" viewBox="0 0 163 87">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="rect876" width="70" height="70" transform="translate(0 0)" fill="rgba(63,81,181,0.13)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1065971" data-name="Grupo 1065971" transform="translate(-539 -3978)">
+    <rect id="Rectángulo_374260" data-name="Rectángulo 374260" width="163" height="50" transform="translate(539 4015)" fill="#f7cd00"/>
+    <g id="layer1" transform="translate(474.446 4087.444)">
+      <g id="Grupo_1065535" data-name="Grupo 1065535" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3655" d="M12.015-57.852s-1.078-60.964,13.93-69.65c16.519-9.561,29.554,5.834,39.7-2.6,13.3-11.06,12.317-50.086,12.317-50.086" transform="translate(-8.719 162.358)" fill="none" stroke="#444" stroke-width="6"/>
+      </g>
+      <g id="Grupo_1065536" data-name="Grupo 1065536" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727" d="M65.232,118.542a6.35,6.35,0,1,1,6.424-6.35A6.4,6.4,0,0,1,65.232,118.542Zm0-8.69c-1.306,0,4.123,4.884-2.367,2.34-1.214-.476,1.061,2.34,2.367,2.34a2.34,2.34,0,1,0,0-4.68Z" transform="translate(-43.5 -51.024)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+      <g id="Grupo_1065537" data-name="Grupo 1065537" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727-4" d="M175.462-83.6a6.4,6.4,0,0,1-6.424-6.35,6.4,6.4,0,0,1,6.424-6.35,6.4,6.4,0,0,1,6.424,6.35A6.4,6.4,0,0,1,175.462-83.6Zm0-8.69c-1.306,0,3.848,4.85-2.367,2.34-1.209-.488,1.061,2.34,2.367,2.34a2.355,2.355,0,0,0,2.367-2.34A2.355,2.355,0,0,0,175.462-92.287Z" transform="translate(-125.404 99.772)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+      <g id="Grupo_1065538" data-name="Grupo 1065538" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727-4-9" d="M18.441-45.846a6.4,6.4,0,0,1-6.424-6.35,6.4,6.4,0,0,1,6.424-6.35,6.4,6.4,0,0,1,6.424,6.35A6.4,6.4,0,0,1,18.441-45.846Zm0-8.69c-1.306,0,3.814,4.613-2.367,2.34-1.224-.45,1.061,2.34,2.367,2.34a2.355,2.355,0,0,0,2.367-2.34A2.355,2.355,0,0,0,18.441-54.535Z" transform="translate(-8.733 71.61)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+      <g id="Grupo_1065539" data-name="Grupo 1065539" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727-4-9-8" d="M219.348,71.435a6.35,6.35,0,1,1,6.424-6.35A6.4,6.4,0,0,1,219.348,71.435Zm0-8.69c-1.306,0,3.814,4.765-2.367,2.34-1.214-.476,1.061,2.34,2.367,2.34a2.34,2.34,0,1,0,0-4.68Z" transform="translate(-158.012 -15.882)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+      <g id="Grupo_1065540" data-name="Grupo 1065540" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727-4-9-8-1" d="M117.2,61.263a6.35,6.35,0,1,1,6.424-6.35A6.4,6.4,0,0,1,117.2,61.263Zm0-8.69c-1.306,0,4.329,4.443-2.367,2.34-1.245-.391,1.061,2.34,2.367,2.34a2.34,2.34,0,1,0,0-4.68Z" transform="translate(-82.112 -8.293)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+      <g id="Grupo_1065541" data-name="Grupo 1065541" transform="translate(110.054 -109.444)" clip-path="url(#clip-path)">
+        <path id="path3727-4-8" d="M87.263-87.874a6.4,6.4,0,0,1-6.424-6.35,6.4,6.4,0,0,1,6.424-6.35,6.4,6.4,0,0,1,6.424,6.35A6.4,6.4,0,0,1,87.263-87.874Zm0-8.69c-.575.5,3.376,5-2.367,2.34-1.183-.548,1.061,2.34,2.367,2.34a2.355,2.355,0,0,0,2.367-2.34C89.631-95.515,88.241-97.42,87.263-96.564Z" transform="translate(-59.87 102.963)" fill="#3f51b5" stroke="#3f51b5" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
