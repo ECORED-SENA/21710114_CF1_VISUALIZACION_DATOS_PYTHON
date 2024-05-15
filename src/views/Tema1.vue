@@ -5,490 +5,346 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Python y Colab
-    p.mb-5 Colab, también conocido como "Colaboratory", permite programar y ejecutar Python en su navegador, con las siguientes ventajas:
-    .row.justify-content-center.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img1.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .p-4
-              p.text-center #[b No requiere configuración]
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img2.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .p-4
-              p.text-center #[b Da acceso gratuito a GPU]
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img3.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .p-4
-              p.text-center #[b Permite compartir contenido fácilmente]
-    .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema1/img1.png', style="width: 350px" ,alt='').m-auto
-      .col-lg-9
-        p Colab puede facilitar su trabajo, ya sea estudiante, científico de datos o investigador de IA. Google Colaboratory es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube. En ese sentido, Python permite diferentes ambientes en la programación, como la orientada a objetos y la funcional, pero lo más relevante de esta parte es que se utiliza como un lenguaje de #[em scripts] o intérprete.
-        p Python tiene una funcionalidad de un modo interactivo, que trabaja de la mano con un intérprete de línea de comando que, al lanzar una orden, se obtiene un resultado. En sus inicios, las funcionalidades se quedaron limitadas con IPython, que más adelante evolucionó a Jupyter. Jupyter es un entorno que permite desarrollar líneas de Python dinámicamente, funciona como una aplicación local, donde se emula la función cliente-servidor y posibilita la ejecución de código; de esa manera, su interactividad posibilita la interpretación de su código de manera tal que pareciera la lectura de un documento a los ojos de cualquier persona.
-        p.mb-0 En el siguiente recurso se observa la implementación y ejecución de Colab.
-
-
-    .tarjeta.tarjeta--azul.mb-5
-      .p-4.p-lg-5
-        SlyderA(tipo="b")
-          .row
-            .col-lg-6.mb-4.mb-lg-0
-              p #[b Acceso a Google Colaboratory]
-              p Google Colab es de carácter gratuito y para acceder a él, no es más que entrar a nuestra cuenta de Google, hacer clic derecho en nuestro Drive, ir al botón de nuevo y luego al submenú de más para seleccionar Colaboratory; creando así un nuevo cuaderno.
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/tema1/img2.png', style="width: 450px" ,alt='').m-auto
-          .row
-            .col-lg-6.mb-4.mb-lg-0
-              p #[b Cuaderno de Google Colaboratory]
-              p Una vez creado el apartado, se ha creado un cuaderno, que no es más que un documento que contiene código ejecutable, como Python; ese va a ser nuestro entorno de trabajo para Python y tiene un aspecto como el que se aprecia en la imagen. En la parte superior izquierda se puede cambiar el nombre del documento; en tanto su extensión (*.ipynb), viene de IPython Notebook, esto hace que nos permita ejecutar cuadernos tanto en IPython como en Jupyter y Colab.
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/tema1/img3.png', style="width: 450px" ,alt='').m-auto
-          .row
-            .col-lg-6.mb-4.mb-lg-0
-              p #[b Codificando el cuaderno]
-              p La composición de un cuaderno está dada por celdas, ya que estas son la mínima parte de ejecución dentro de un cuaderno, es ahí donde escribimos nuestro código y lo ejecutamos, se puede realizar pulsando el botón de #[em play] ubicado a la izquierda de la línea o celda. Una vez realizada la ejecución, en la celda inferior, encontraremos el resultado de la ejecución inmediatamente anterior.
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/tema1/img4.png', style="width: 450px" ,alt='').m-auto
-          .row
-            .col-lg-6.mb-4.mb-lg-0
-              p #[b Ejecución]
-              p Se puede observar que las celdas de Colab son independientes, pero todas ellas trabajan con el mismo #[em kernel]; hay que recordar que un #[em kernel] es el corazón de un sistema operativo, pero, a su vez, no solo es el núcleo de un sistema, sino también un programa que controla todos los accesos al procesador y a la memoria.
-              p Aunque el #[em kernel], que gobierna todas las celdas, es único, las celdas se pueden ejecutar independientemente o estar conectadas por variables que se representen en diferentes partes del documento. La forma de ejecución que hace Colab es de abajo hacia arriba, y el número que aparece en la parte izquierda hace referencia al orden de ejecución.
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/tema1/img5.png', style="width: 450px" ,alt='').m-auto
-          .row
-            .col-lg-6.mb-4.mb-lg-0
-              p #[b Versión de Python]
-              p Normalmente, un cuaderno en Colab utiliza el #[em kernel] con la versión de Python 3, pero si se quiere cambiar la versión de Python a la versión 2, se puede realizar ingresando al menú archivo y nos da la opción en ese apartado.
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/tema1/img6.png', style="width: 450px" ,alt='').m-auto
-    .row.justify-content-center
-      .col-lg-10
-        .row.align-items-center.bg-c2
-          .col-md-auto.px-lg-0.pt-4.pt-md-0
-            figure
-              img(src='@/assets/curso/tema1/img4.svg', style="width: 100px" ,alt='').m-auto
-          .col
-            .p-4
-              p.mb-0 Como se ha visto, gracias a Google Colaboratory, se pueden llevar de manera más sencilla proyectos con esta útil y potente herramienta; estos entornos Colab son muy utilizados por la comunidad de desarrolladores a nivel mundial.
+      h1 HTML 5
+    .f-1-1.p-5.mn.mb-5
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/4.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 HTML5 es la piedra angular de la creación de contenido web moderno, permitiendo a los desarrolladores y diseñadores web construir experiencias ricas e interactivas en línea. A continuación, se detalla su definición y aplicación: 
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+      p.mb-5(data-aos='fade-right') El conjunto de características y funcionalidades de cada etiqueta, que ha evolucionado con el tiempo, se conoce como HTML. Actualmente, está en la versión 5, la cual es regulada por el Consorcio World Wide Web (W3C). 
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .tarjeta.color-primario.p-5
+            .row.justify-content-center.align-items-center
+              .col-lg-1.col-6: img(src='@/assets/curso/temas/6.svg', alt='')
+              .col-lg-11
+                h5.mb-3: span.titulo-azul.p-2 Sabias qué ?
+                p(data-aos='fade-right') El consorcio WWW en ingles: World Wide Web Consortium (W3C) es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento del World Web a largo plazo.
     Separador
-    #t_1_1
-    .titulo-segundo.color-acento-contenido
-      h2 1.1 Listas y estructuras
-    .row.align-items-center.mb-4
-      .col-xl-8.mb-4.mb-lg-0
-        p Python tiene un número considerable de estructuras de datos; es por eso que se dice que las listas no son más que estructuras de datos con unas características especiales, ya que permiten almacenar cualquier tipo de datos en ellas, tales como caracteres, enteros, cadenas.
-        p Entonces, una lista es un arreglo donde es posible ingresar cualquier tipo de datos, y estos están indexados para un fácil acceso.
-        .row
-          .col-12.bg-c3
-            .p-4
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 #[b Figura 1]. Listas
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | print lista[0] # 1
-                      | print lista[1] # 2.5
-                      | print lista[2] # DevCode
-                      | print lista[3] # [5,6]
-                      | print lista[3][0] # 5
-                      | print lista[3][1] # 6
-                      | print lista[1:3] # [2.5, 'DevCode']
-                      | print lista[1:6] # [2.5, 'DevCode', [5, 6], 4]
-                      | print lista[1:6:2] # [2.5, [5, 6]]
-
-              //figure
-                img(src='@/assets/curso/tema1/img8.png', style="width: 450px" ,alt='').m-auto
-      .col-xl-4.d-none.d-xl-block
-        figure
-          img(src='@/assets/curso/tema1/img7.png', style="width: 450px" ,alt='').m-auto
-    p.mb-4 De esta manera, se observa cómo se pueden insertar listas dentro de otra; por eso se dice que una lista no es más que una estructura de datos firme. Para emplear correctamente este tipo de dato, es necesario conocer los métodos y las diferentes operaciones que con la lista pueden realizar, tal como se presenta en la siguiente imagen:
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.1 Etiquetas (tags) 
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/7.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 Las etiquetas HTML representan el conjunto de funcionalidades que se pueden implementar en una página web, y poseen una sintaxis específica de escritura. Esto significa que existe una forma correcta en la que se deben escribir, cumpliendo con determinados atributos y manteniendo una interdependencia entre ellas. Por ello, algunas etiquetas dependen de otras para funcionar correctamente, a estas se les conoce como etiquetas padres. #[b A continuación, se presenta un ejemplo de las etiquetas padres mínimas requeridas en un archivo .html:] 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7(data-aos="fade-right").mb-lg-0.mb-3
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; HTML &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Indica el inicio del documento y que el documento está escrito en el lenguaje HTML.
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; HEAD &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Es el encabezado de la página y esta información va orientada al navegador.
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; /HEAD &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Indica el fin de la etiqueta  &lt; HEAD &gt;. Ambas etiquetas deben quedar dentro de la  etiqueta padre HTML. 
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; BODY &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Representa el cuerpo del contenido de la información que va a visualizar el usuario.
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; /BODY &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Indica el fin del cuerpo. 
+        .tarjeta(style="background-color: #e3dfeb").mb-1
+          .row.justify-content-center.g-0 
+            .col-lg-2
+              .tarjeta.p-3.h-100.d-flex.align-items-center(style="background-color: #00ffdf")
+                h4.mb-0 &lt; /HTML &gt; 
+            .col-lg-10
+              .p-3
+                p.mb-0 Indica el final del documento HTML. 
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/8.png', alt='')
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.2 Textos
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/9.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 La inclusión de texto en una página web responde a la necesidad de presentar información a los visitantes. Todo texto que se añada debe estar contenido dentro de las etiquetas padres previamente mencionadas. En este contexto, se recomienda organizar el texto en párrafos, lo cual se logra mediante la utilización de la etiqueta #[span.color-morado &lt;p&gt;], seguido del texto deseado, y cerrando con la etiqueta de cierre #[span.color-morado &lt;/p&gt;]. De acuerdo con lo expuesto, se entiende que un conjunto de párrafos forma todo el documento, y los saltos de línea dentro de un texto se indican con la etiqueta #[span.color-morado &lt;br/&gt;]. Además, #[b otros elementos importantes para enriquecer el texto incluyen:] 
+    .f-1-2.mn.p-5.mb-5
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 1.
+            span Etiquetas HTML para textos
+          .tabla-a.color-acento-contenido.mb-5
+            table
+              caption Leyenda de la tabla
+              thead(style="background-color: #3a1d71")
+                tr
+                  th.text-white  Etiqueta 
+                  th.text-white  Descripción
+                  
+              tbody
+                tr
+                  td.fw-bold &lt;blockquote/&gt;
+                  td Párrafo que en sí mismo corresponde a una cita de reseña. 
+                tr
+                  td.fw-bold &lt;q/&gt;
+                  td Cita contenida dentro de un texto. 
+                tr
+                  td.fw-bold &lt;em/&gt;
+                  td Enfatiza el texto de un párrafo. 
+                tr
+                  td.fw-bold &lt;strong/&gt;
+                  td Resaltado de texto. 
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          h5.mb-4 Un ejemplo de configuración de código HTML es:  
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code
+                | &lt;html&gt; 
+                | &lt;head&gt; 
+                | &lt;/head&gt; 
+                | &lt;body&gt; 
+                |Mi primer texto en una página web que no es un párrafo &lt;/br&gt; 
+                |&lt;p&gt;Mi primer párrafo página web&lt;/p&gt; 
+                br
+                |&lt;blockquote&gt;MI PRIMER PARRAFO CITA EN UNA PAGINAWEB&lt;blockquote&gt; 
+                |&lt;p&gt;Siempre se dice que este es el mejor sitio para ver videos |online  
+                |&lt;q cite=“http://youtube.com/“&gt;www.youtube.com&lt;/q&gt; 
+                |&lt;/p&gt; 
+                br
+                |En ocasiones más vale &lt;em&gt;correr lento&lt;/em&gt;pero seguro. 
+                br
+                br
+                |&lt;p&gt;Cuando el rio suena &lt;strong&gt;piedras lleva&lt;/strong&gt;.&lt;/p&gt; 
+                |&lt;/body&gt; 
+                br
+                |&lt;/html&gt; 
+          h5.mb-4 El resultado de la ejecución del código anterior es:  
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 1.
+            span Resultado del código
+          img(src='@/assets/curso/temas/10.svg', alt='Primera línea de texto, con sangría: Mi primer texto en una página web que no es un párrafo.Segunda línea de texto sin sangría: Mi primer párrafo página web.Tercera línea de texto en mayúscula sostenida: MI PRIMER PÁRRAFO CITA EN UNA PAGINA WEB.Cuarta línea, con la página web entrecomillada: Siempre se dice que este es el mejor sitio para ver videos online “www.youtube.com”.Quinta línea de texto con la palabras más, correr y lento en cursiva: En ocasiones más vale correr lento pero seguro.Última línea, con las palabras piedras lleva en negrita: Cuando el río sueno piedras lleva.')
+    Separador        
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.3 Imágenes 
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta <img> acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
     .row.justify-content-center.mb-4
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 2]. Ejemplo de lista
-
-          .row.justify-content-center
-            .col-auto
-              pre
-                code.language-python
-                  | my_list = [2, 5, 'DevCode', 1.2, 5]
-
-          //figure
-            img(src='@/assets/curso/tema1/img9.png', style="width: 450px" ,alt='').m-auto
-
-    p.mb-5 Teniendo en cuenta el ejemplo anterior, a continuación se muestran los métodos que son más importantes y propios de las listas:
-    .row.mb-5
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Append()]
-              p Permite agregar nuevos elementos a una lista. Se puede agregar cualquier tipo de elemento a una lista, pero si agregamos una lista dentro de otra, simplemente se va a agregar como un solo elemento.
-              p Ejemplo de Append
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.append(10) # [2,5,'DevCode',1.2,5,10]
-                      | my_list.append([2,5]) # [2,5,'DevCode',1.2,5,[2,5]]
-              //figure
-                img(src='@/assets/curso/tema1/img10.png', style="width: 450px" ,alt='').m-auto
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Extend()]
-              p Este método es importante y se diferencia de append, ya que agrega cualquier elemento tal como listas, pero este método agrega los elementos de una lista como elementos de la lista principal de donde está siendo agregado.
-              p Ejemplo de Extend()
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.extend([2,5]) # [2,5,'DevCode',1.2,5,2,5]
-              //figure
-                img(src='@/assets/curso/tema1/img11.png', style="width: 450px" ,alt='').m-auto
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Remove()]
-              p Este método tiene la propiedad de remover. Solo afecta a la lista de donde esté siendo invocado. En la imagen, se observa que se está removiendo el elemento 2 de la lista que tiene como nombre my_list.
-              p Ejemplo de Remove()
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.remove(2) # [5, 'DevCode', 1.2, 5]
-              //figure
-                img(src='@/assets/curso/tema1/img12.png', style="width: 400px" ,alt='').m-auto
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Index()]
-              p Este método solo devuelve el número del índice de lo que se le digite como parámetro. En este ejemplo, se está preguntando por el índice de la cadena DevCode en la lista My_list, cuyo resultado es 2.
-              p Ejemplo con Index()
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.index('DevCode') # 2
-              //figure
-                img(src='@/assets/curso/tema1/img13.png', style="width: 300px" ,alt='').m-auto
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Count()]
-              p La función de este método es sencilla, solo muestra la cantidad de veces que un elemento de una lista se repite. En el parámetro de este método, se dice que nos muestre cuántas veces aparece el número 5 en la lista my_list. Devuelve 2.
-              p Ejemplo de Count()
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.count(5) # 2
-              //figure
-                img(src='@/assets/curso/tema1/img14.png', style="width: 300px" ,alt='').m-auto
-      .col-xl-6
-        .row.mx-1.my-3
-          .col-12.bg-c4
-            .p-4
-              p.mb-0 #[b Reverse()]
-              p Reorganiza los elementos de una lista, los invierte.
-              p Ejemplo de Reverse()
-              .row.justify-content-center
-                .col-auto
-                  pre
-                    code.language-python
-                      | my_list.reverse() # [5,1.2,'DevCode',5,2]
-              //figure
-                img(src='@/assets/curso/tema1/img15.png', style="width: 400px" ,alt='').m-auto
+        .col-lg-10
+          .tarjeta.color-primario.p-3.mb-5
+            .row.justify-content-center.align-items-center
+              .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
+              .col-lg-10
+                h5.mb-3: span.titulo-azul.p-2 ¡Importante! 
+                p(data-aos='fade-right') Otros atributos importantes para la etiqueta #[span.color-azul &lt;img&gt;] son #[span.color-azul width] y #[span.color-azul height] que sirven para definir el ancho y el alto de la imagen dentro de la página web.
+          h4.mb-3 Un ejemplo de configuración de código HTML es:  
     .row.justify-content-center
-      .col-lg-10
-        .row.align-items-center.bg-c2
-          .col-md-auto.px-lg-0.pt-4.pt-md-0
-            figure
-              img(src='@/assets/curso/tema1/img6.svg', style="width: 120px" ,alt='').m-auto
-          .col
-            .p-4
-              p.mb-0 Se han mencionado los métodos más utilizados en Python, uno de los lenguajes de programación predilectos hoy por hoy, por la comunidad desarrolladora del mundo, por su gran versatilidad y facilidad de interpretación, lo que también lo ha llevado a grandes controversias por esta misma comunidad.
+      .col-lg-9(data-aos="fade-right").mb-lg-0.mb-3
+        .tarjeta-codigo.p-4.mb-5
+            pre.language-html(language="html").mt-5
+              code
+                |&lt;html&gt; 
+                |&lt;head&gt; 
+                |&lt;/head&gt; 
+                |&lt;body&gt; 
+                |&lt;img src=“/misDocumentos/imagenes/2301-03.png” width=“50%” height:”40%”/&gt;
+                |&lt;/body&gt; 
+                |&lt;/html&gt; 
+      //.col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/t13.png', alt='')
+    
     Separador
-    #t_1_2
-    .titulo-segundo.color-acento-contenido
-      h2 1.2 NumPy
-    p.mb-5 Como se vio en el anterior ítem, si se va a trabajar con Notebook en Google Colab, se debe saber que NumPy ya está instalado en el mismo.
-    .row.justify-content-center.mb-5
-      .col-md-7.col-lg-auto.px-0
-        figure
-          img(src='@/assets/curso/tema1/img16.png', style="width: 440px" ,alt='').m-auto
-      .col-md-7.col-lg-6.bg-c5
-        .p-4
-          p.mb-0 Según NumPy v1.19 Manual (2022), NumPy es el paquete fundamental para la computación científica en Python. Es una biblioteca de Python que proporciona un objeto de matriz multidimensional, varios objetos derivados (como matrices y matrices enmascaradas) y una variedad de rutinas para operaciones rápidas en matrices, que incluyen manipulación matemática, lógica de formas, clasificación, selección, E/S, transformadas discretas de Fourier, álgebra lineal básica, operaciones estadísticas básicas, simulación aleatoria y mucho más.
-    p.mb-5 Con base en este concepto, NumPy es imprescindible para la predicción. En el campo de los datos o ciencia de datos, circulan en las redes millones de datos todos los días, por eso, herramientas como esta se vuelven cada vez más importantes para ayudar a los desarrolladores o a los científicos de datos a tomar lo más relevante de ellos y convertirlo en información útil, que permita una predicción exacta.
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.4 Hiperenlaces
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/12b.svg', alt='')
+      .col(data-aos="fade-left")
+        p.mb-0 Esta funcionalidad permite la navegación entre diferentes páginas web, es decir, facilita el desplazamiento de una página a otra cuyos contenidos HTML están almacenados en archivos de distintos nombres y, posiblemente, en carpetas diferentes. Además, habilita la navegación hacia otras páginas web ya publicadas en internet. 
+
     .row.justify-content-center.mb-5
       .col-lg-10
-        .row
-          .col-12.bg-c6
-            .p-4
-              p.mb-0 NumPy es una poderosa herramienta que no solamente es utilizada en la parte científica, sino como una recolectora de grandes flujos de datos, y gracias a eso, se puede conectar con múltiples bases de datos, un punto más a su favor, que la hacen más atractiva; de hecho, hay librerías, como Pandas, que están construidas sobre NumPy. Una de sus principales características es el manejo rápido de datos y el manejo de estructuras, que lo denominan por medio de #[em arrays] o arreglos, lo que en Python se llaman listas, pero opera los datos de una manera más ligera y eficiente.
-    p.mb-5 La forma de almacenar los datos en NumPy es por medio de arreglos, lo que en Python son listas. La diferencia es que NumPy lo hace de una manera más rápida; el método invocado para la asignación de estos dato es array(), perteneciente a la librería NumPy. De esa manera, es posible ver, a continuación, cómo se estructura un arreglo en NumPy:
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 3]. Arreglo en NumPy
-          .row.justify-content-center
-            .col-auto
-              pre
-                code.language-python
-                  | import numpy as np
-                  |
-                  | sample_list = [1, 2, 3]
-                  |
-                  | np.array(sample_list)
-          //figure
-            img(src='@/assets/curso/tema1/img17.png', style="width: 250px" ,alt='').m-auto
-    p El resultado de la última línea de código será algo como #[b array&lpar;&lsqb;1,2,3&rsqb;&rpar;]. NumPy tiene dos tipos de arreglos que son: matrices y vectores.
-    p.mb-5 Los vectores son sencillos y son arreglos unidimensionales que manejan una sintaxis sencilla, como la que se muestra en la siguiente figura.
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 4]. Vectores
-          .row.justify-content-center
-            .col-auto
-              pre
-                code.language-python
-                  | my_vector = np.array(['este', 'es', 'un', 'vector'])
-          //figure
-            img(src='@/assets/curso/tema1/img18.png', style="width: 390px" ,alt='').m-auto
-    p.mb-5 Las matrices son unos arreglos bidimensionales y su sintaxis es un poco más compleja; sin embargo, su sintaxis se realiza invocando el método np.array(), como se ve a continuación
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 5]. Matrices
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-center.align-items-center
+            .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
+            .col-lg-10
+              h5.mb-3: span.titulo-azul.p-2 ¡Ten en cuenta!
+              p(data-aos='fade-right') Para lograr un hiperenlace se debe utilizar la etiqueta #[span.color-azul &lt;a&gt;] acompañada del atributo #[span.color-azul href=“”] que indica el destino hacia la página a la que se quiere llegar y dentro de la etiqueta el texto que describe el sitio destino.
 
-          .row.justify-content-center
-            .col-auto
-              pre
-                code.language-python
-                  | my_matrix = [[1,2,3],[4,5,6],[7,8,9]]
-                  | np.array(my_matrix)
-          //figure
-            img(src='@/assets/curso/tema1/img19.png', style="width: 390px" ,alt='').m-auto
-    p Los arreglos de NumPy se pueden expandir para trabajar con matrices de uno, dos o más dimensiones; las operaciones que se pueden hacer con esta librería son extensas y es por eso que se mostrarán algunas de las más utilizadas, para ver cómo es el trabajo y la sintaxis correcta utilizando NumPy. Es común que las listas de Python tengan gran similitud con los arreglos de NumPy, pero su gran diferencia radica en que son más rápidos, menos pesados y permiten generar #[em arrays] n-dimensionales.
-    p.mb-5 Los #[em arrays] pueden variar en sus presentaciones unidimensional o vector, bidimensional o matriz y tensor.
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 6]. Tensor
-          .row.justify-content-center
-            .col-auto
-              figure
-                img(src='@/assets/curso/tema1/img20.png', style="width: 490px" ,alt='Ejemplo gráfico unidimensional de Tensor').m-auto
-                figcaption Nota. Tomado de Kumar (2020).
-    p.mb-5 Para crear un #[em array] con NumPy, se puede lograr a través de una lista o con una lista de listas, y la sintaxis para crearlo es np.array(My_list), y de la misma forma que las listas, es posible acceder a un valor por medio de los índices.
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 7]. #[em Array]
-          figure
-            img(src='@/assets/curso/tema1/img21.png', style="width: 450px" ,alt='Captura de pantalla del programa al crear un array con NumPy').m-auto
-    p.mb-5 Utilizando los conceptos anteriores, cuando se trabaja con Google Colab, es posible dibujar una gráfica invocando las librerías Matplotlib y NumPy, con el código que se aprecia a continuación:
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 8]. Dibujando una gráfica
-          figure
-            img(src='@/assets/curso/tema1/img22.png', style="width: 650px" ,alt='Captura de pantalla del programa mostrando la creación de una gráfica.').m-auto
-    p.mb-5 De igual forma, también se puede trazar gráficas fácilmente con Python al tener las herramientas correctas e invocando las librerías correspondientes. La siguiente es otra gráfica, la cual se obtiene con Matplotlib y NumPy:
-    .row.justify-content-center
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 9]. Dibujando una gráfica
-          figure
-            img(src='@/assets/curso/tema1/img23.png', style="width: 550px" ,alt='Captura de pantalla del programa mostrando la creación de una gráfica con Matplotlib y NumPy.').m-auto
+        p #[strong Un ejemplo de código para hiperenlaces es:]
+
+        .row.justify-content-center
+          .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
+            .tarjeta-codigo.p-4.mb-5
+                pre.language-html(language="html").mt-5
+                  code
+                    |&lt;html&gt; 
+                    |&lt;head&gt; 
+                    |&lt;/head&gt; 
+                    |&lt;body&gt; 
+                    |&lt;a href="http://www.google.com"&gt; http://www.google.com &lt;/a&gt; 
+                    |&lt;/body&gt; 
+                    |&lt;/html&gt; 
+          //.col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/12.png', alt='')
     Separador
-    #t_1_3
-    .titulo-segundo.color-acento-contenido
-      h2 1.3 Condicionales y panda
-    .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema1/img24.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-8
-        p Según Datacarpentry.org (2001), “Un #[em DataFrame] es una estructura de datos con dos dimensiones, en la cual se pueden guardar datos de distintos tipos (como caracteres, enteros, valores de punto flotante, factores y más) en columnas”.
-        p Es similar a una hoja de cálculo o una tabla de SQL, o el data.frame de R. Un #[em DataFrame] siempre tiene un índice (con inicio en 0). El índice refiere a la posición de un elemento en la estructura de datos. Resulta un poco complicado hablar de Pandas y sus condicionales sin antes hablar un poco de lo que es un #[em DataFrame]. Sin más preámbulos, un #[em DataFrame] es un marco de trabajo, donde se estipulan unos parámetros para poder ingresar los datos y estos, a su vez, ser representados con estilo. Estos datos son etiquetados, tanto en filas como en columnas.
-        p.mb-0 A continuación se expone cómo es posible realizar lo indicado:
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/dkUlltYfeMo?si=iXx3FKBQiuT-8LUs" title="Condicionales y Pandas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Condicionales y Pandas
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.5 Tablas
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/13.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 #[b Las tablas son elementos idóneos para estructurar contenido en una página web de manera matricial, es decir, organizado en filas y columnas.] Para crear una tabla, se utiliza la etiqueta &lt;table&gt;. A continuación, se define la cantidad de filas mediante la etiqueta &lt;tr&gt; y, dentro de ella, se especifica el número de columnas deseado utilizando la etiqueta &lt;td&gt; para cada celda que se quiera presentar. Al final, cada combinación de fila y columna forma una celda de información. 
+    p.mb-5(data-aos='fade-right') El siguiente código ilustra la creación de una tabla con 2 filas y 3 columnas, donde el contenido de cada celda puede variar, incluyendo texto, hiperenlaces, imágenes, entre otros elementos. 
+    .f-1-3.mn.p-5.mb-4
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          h5.mb-5 El código para una tabla de datos es: 
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code
+                |&lt;html&gt; 
+                |&lt;head&gt; 
+                |&lt;/head&gt; 
+                |&lt;body&gt; 
+                |&lt;table&gt; 
+                |&lt;tr&gt; 
+                |&lt;td&gt;Celda Uno &lt;/td&gt; 
+                |&lt;td&gt;Celda Dos &lt;a href=“http://www.google.com”&gt;www.google.com&lt;/a&gt;&lt;/td&gt; 
+                |&lt;td&gt;Celda Tres &lt;/td&gt; 
+                |&lt;/tr&gt; 
+                |&lt;tr&gt; 
+                |&lt;td&gt;Celda Cuatro&lt;/td&gt; 
+                |&lt;td&gt;Celda Cinco&lt;/td&gt; 
+                |&lt;td&gt;Celda Seis&lt;/td&gt; 
+                |&lt;/tr&gt; 
+                |&lt;/table&gt; 
+                |&lt;/body&gt;
+                |&lt;/body&gt; 
+                |&lt;/html&gt;
+          h5.mb-4 El resultado ejecución del código de la tabla es:  
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2. 
+            span Tabla de datos
+          img(src='@/assets/curso/temas/14.svg', alt='El resultado es la distribución del texto configurado en el código, en un formato tabla.')
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .tarjeta.color-primario.p-3.mb-5
+            .row.justify-content-center.align-items-center
+              .col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
+              .col-lg-10
+                h5.mb-3: span.titulo-azul.p-2 ¡Importante : Divs!
+                p(data-aos='fade-right').mb-0 Si bien es cierto que ya vimos el funcionamiento de las tablas, en el diseño de hoy se recomienda usar la etiqueta div que corresponde a un contenedor y permite realizar lo mismo de las tablas, pero con mayores opciones en funcionalidad y dinamismo.
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          h5.mb-4 Un ejemplo de tabla usando Div: 
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code
+                |&lt;div class=“tabla”&gt; 
+                |&lt;div&gt; Cabecera con el logo de la página “header” &lt;/div&gt; 
+                |&lt;div&gt; 
+                |&lt;div class=“columna1”&gt; Columna1 &lt;/div&gt; 
+                |&lt;div class=“columna2”&gt; Columna2 &lt;/div&gt; 
+                |&lt;div class=“columna3”&gt; Columna3 &lt;/div&gt; 
+                |&lt;/div&gt; 
+                |&lt;div&gt; Pie de página &lt;/div&gt; 
+                |&lt;/div&gt; 
     Separador
-    #t_1_4
-    .titulo-segundo.color-acento-contenido
-      h2 1.4 Funciones y paquetes
-    p Los paquetes son partes de código que aumentan la operabilidad de Python. Un paquete se ve como una carpeta con varios contenidos entre archivos y carpetas con sus respectivas extensiones Python (.py); la utilidad de los paquetes en la ciencia de datos es la facilidad de reutilizar código, permitiendo usar clases y objetos, que fácilmente pueden ser usados por otros módulos, y organizarlos de una mejor manera en namespaces.
-    p.mb-5 Se demuestra esto a través del siguiente ejemplo:
-    .row
-      .col-lg-6
-        .row.mx-1.my-3
-          .col-12.bg-c7
-            .p-4
-              .row.align-items-center.mb-4
-                .col-auto.px-0
-                  figure
-                    img(src='@/assets/curso/tema1/img7.svg', style="width: 40px" ,alt='').m-auto
-                .col
-                  p.mb-0 #[b Se podría definir un módulo de operaciones (.py) con las funciones de suma() y resta().]
-              figure
-                img(src='@/assets/curso/tema1/img25.png', style="width: 450px" ,alt='Captura de pantalla donde se muestran las operaciones de suma y resta').m-auto
-      .col-lg-6
-        .row.mx-1.my-3
-          .col-12.bg-c7
-            .p-4
-              .row.align-items-center.mb-4
-                .col-auto.px-0
-                  figure
-                    img(src='@/assets/curso/tema1/img8.svg', style="width: 40px" ,alt='').m-auto
-                .col
-                  p.mb-0 #[b Una vez se haya definido ese módulo, se puede importar en otro archivo utilizando import, e importar lo que contenga.]
-              figure
-                img(src='@/assets/curso/tema1/img26.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra el uso de la función import').m-auto
-      .col-lg-6
-        .row.mx-1.my-3
-          .col-12.bg-c7
-            .p-4
-              .row.align-items-center.mb-4
-                .col-auto.px-0
-                  figure
-                    img(src='@/assets/curso/tema1/img9.svg', style="width: 40px" ,alt='').m-auto
-                .col
-                  p.mb-0 #[b Ahora bien, si se prefiere, se pueden importar los módulos de interés.]
-              figure
-                img(src='@/assets/curso/tema1/img27.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra la importación de módulos de interés.').m-auto
-      .col-lg-6
-        .row.mx-1.my-3
-          .col-12.bg-c7
-            .p-4
-              .row.align-items-center.mb-4
-                .col-auto.px-0
-                  figure
-                    img(src='@/assets/curso/tema1/img10.svg', style="width: 40px" ,alt='').m-auto
-                .col
-                  p.mb-0 #[b También, se puede importar todo el módulo utilizando “*” y no mimodulo.*. De esta forma, se pueden agrupar funciones en paquetes y que estos puedan ser utilizados por otros módulos.]
-              figure
-                img(src='@/assets/curso/tema1/img28.png', style="width: 450px" ,alt='Captura de pantalla donde se muestra la importación de todo el módulo.').m-auto
-    Separador
-    #t_1_5
-    .titulo-segundo.color-acento-contenido
-      h2 1.5 Visualización y #[i analytics]
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema1/img29.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-7
-        p La presentación de los datos no es algo que toque dejar pasar por desapercibido, ya que la parte visual ayuda, en gran medida, a una buena interpretación de estos, realizando grandes esfuerzos también para poder llevar a cabo una buena depuración e integración, que si no se hace de manera correcta, el usuario no va a estar contento con la interpretación o simplemente no va a entender lo que se quiere orientar; de ahí parte la importancia de la visualización analítica de los datos.
-        .row.bg-c2
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema1/img11.svg', style="width: 70px" ,alt='').m-auto
-          .col
-            .row
-              .col-12
-                .p-4
-                  p.mb-0 La visualización de la información tiene tres componentes inexorables para poder concluir con éxito un análisis, los cuales son narrativa, diseño y estadística; estas tres etapas deben ir de la mano para poder dar una buena orientación a la hora de plasmar visualmente y no perderse en el intento.
-    p.mb-5 Una excelente interpretación visual debe tener los siguientes ingredientes:
-    .row.justify-content-center.mb-5
-      .col-lg-10.bg-c8
-        .p-4
-          ul.lista-ul.mb-0
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Identificar relaciones, las sentencias y los patrones.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Inspeccionar datos para deducir nuevas tendencias o conocimientos.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Mejorar el entendimiento de una idea o tendencia.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Interpretar de manera concreta la observación de evidencias reales y su variabilidad en el tiempo.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Posibilitar retener una idea.]
-    p Los anteriores tips son los necesarios a tener presente a la hora de realizar una visualización precisa de lo que se quiere realmente mostrarle al cliente y que este interprete de manera eficaz.
-    p Es importante determinar que para analizar datos tubulares en Python se debe hacer uso de las librerías de análisis de datos denominadas Pandas, las cuales generan gráficos de alta calidad con Matplotlib; adicionalmente, se asocian con bibliotecas que usan #[em arrays] de NumPy, que, como se sabe, es otra biblioteca de Python.
-    p.mb-5 Al trabajar con Python, este no carga las bibliotecas, este proceso toca hacerlo con el enunciado import, para acceder a las funciones de la biblioteca; la sintaxis es la siguiente: import nombredelabiblioteca; además de eso, se le puede agregar una abreviación para no digitar los comandos con nombres extensos, de la siguiente manera, as abreviación.
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 10]. Sintaxis
-          figure
-            img(src='@/assets/curso/tema1/img30.png', style="width: 280px" ,alt='Captura de pantalla del programa ejecutando abreviaturas en la sintaxis, así: Import pandas as pd').m-auto
-    p.mb-5 Los #[em DataFrame] juegan una importante función en la lectura de datos y, sobre todo, en la selección de los mismos. Cuando se tenga el archivo con la información que se desea tomar lectura, de extensión .CSV, que es la extensión para abrir directamente desde un #[em DataFrame], se realiza de la siguiente manera:
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 11]. #[em DataFrame]
-          figure
-            img(src='@/assets/curso/tema1/img31.png', style="width: 550px" ,alt='Captura de pantalla del programa mostrando la lectura de datos a través de un Dataframe.').m-auto
-    p.mb-5 En cuanto a la visualización de datos, después de introducir parámetros según el requerimiento o los datos que son objeto de proyección, aquí se visualizan mediante la librería plotnine:
-    .row.justify-content-center.mb-5
-      .col-10.bg-c3
-        .p-4
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 12]. Visualización mediante plotnine
-          figure
-            img(src='@/assets/curso/tema1/img32.png', style="width: 850px" ,alt='Captura de pantalla del programa evidenciando la visualización de datos a través de plotnine.').m-auto
-    .row.justify-content-center
-      .col-lg-10
-        .tarjeta.color-primario1.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img13.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Gráficos con plotnine
-                  p.text-small Para ampliar el conocimiento, se sugiere ingresar al siguiente enlace, el cual contiene ejercicios e información de valor sobre analítica de datos.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://datacarpentry.org/python-ecology-lesson-es/07-visualization-ggplot-python.html" target="_blank")
-                    span(style="color: #12263F !important") Visitar enlace
-                    i.fas.fa-link(style="color: #12263F !important")
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.6 Formularios 
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/15.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0 Los formularios son componentes HTML diseñados para facilitar la interacción y el intercambio de información con usuarios. Se caracterizan por agrupar elementos interactivos que permiten introducir datos de diversos tipos, como numéricos, alfanuméricos, caracteres, listas de datos, entre otros. La creación de formularios puede realizarse de manera tanto dinámica como estática. 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
+      .col-lg-9
+        .tarjeta.color-primario.p-4
+          p.mb-0.text-white La etiqueta #[span.color-azul &lt;form&gt;] se utiliza para definir un formulario y debe incluir, como mínimo, el atributo #[span.color-azul action], que especifica el destino al que se enviarán los datos. Además, es esencial definir el método de envío de los datos, que puede ser post o get, para determinar cómo se transmitirán estos datos al servidor. 
+            br
+            br
+            |A continuación, se describen algunos tags que comúnmente conforman un formulario, estos se deben encerrar dentro de la etiqueta principal del formulario #[span.color-azul &lt;form&gt;]:
+    .f-1-4.mn.mb-5.p-5.pt-0
+      .row.justify-content-center.mb-5
+        .col-lg-4
+          .tarjeta.p-4(style="background-color: #f7eefe ")
+            h5 &lt;input&gt; 
+            p Entrada de datos: estos pueden ser texto, número o alfanumérico; sus atributos más importantes son #[em type] para definir el tipo de entrada que puede ser #[em text], radio, #[em submit], #[em reset], el atributo id permite identificar de manera única el objeto en el archivo HTML, el atributo name es para darle un nombre a la entrada o variable y value para recibir el dato del componente. 
+        .col-lg-4
+          .tarjeta.p-4.mb-4(style="background-color: #d6e1fd")
+            h5 &lt;label&gt; 
+            p.mb-0 Permite la definición de un nombre para una entrada de datos. 
+          .tarjeta.p-4.mb-4(style="background-color: #bcfff7")
+            img(src='@/assets/curso/temas/16.svg', alt='') 
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          h5.mb-4 Un ejemplo de código de un formulario es : 
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code
+                | &lt;html&gt; 
+                | &lt;head&gt; 
+                | &lt;/head&gt; 
+                | &lt;body&gt; 
+                | &lt;form action=“http://misitio.com/prog/usuarionuevo” method=“post”&gt; 
+                | &lt;p&gt; 
+                | &lt;label for=“nombre”&gt;Nombre:&lt;/label&gt; 
+                | &lt;input type=“text” id=“nombre”&gt;&lt;br/&gt; 
+                | &lt;label for=“apellido”&gt;Apellido:&lt;/label&gt; 
+                | &lt;input type=“text” id=“apellido”&gt;&lt;br/&gt; 
+                | &lt;label for=“email”&gt;email:&lt;/label&gt; 
+                | &lt;input type=“text” id=“email”&gt;&lt;br/&gt; 
+                | &lt;input type=“radio” name=“sexo” value=“Varón”&gt;Varón&lt;br/&gt; 
+                | &lt;input type=“radio” name=“sexo” value=“Mujer”&gt;Mujer&lt;br/&gt; 
+                | &lt;input type=“submit” value=“Enviar”&gt;&lt;input type=“reset”&gt; 
+                | &lt;/p&gt; 
+                | &lt;/FORM&gt; 
+                | &lt;/body&gt; 
+                | &lt;/html&gt; 
+          h5.mb-4 El resultado del código del formulario es:
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 3. 
+            span Resultado código del formulario
+          img(src='@/assets/curso/temas/17.svg', alt='Formulario con los campos nombre, apellido y email con un campo en blanco para su diligenciamiento. A su vez, de los campos varón y mujer para su selección, finalizando con los botones de enviar o restablecer. ')
+
+
+
+
+
+
+
+
 
 </template>
 
 <script>
-import Prism from 'prismjs'
-import 'prismjs/components/prism-python'
-import 'prismjs/themes/prism-okaidia.css'
+import 'prismjs'
+import 'prismjs/themes/prism-tomorrow.min.css'
 export default {
   name: 'Tema1',
+  components: {},
   data: () => ({
     // variables de vue
   }),
@@ -496,16 +352,11 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
-    window.Prism = window.Prism || {}
-    window.Prism.manual = true
-    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
-    window.Prism = window.Prism || {}
-    window.Prism.manual = true
-    Prism.highlightAll()
   },
 }
 </script>
+
 <style lang="sass"></style>

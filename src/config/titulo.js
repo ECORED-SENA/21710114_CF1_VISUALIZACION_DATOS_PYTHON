@@ -1,1 +1,1 @@
-module.exports = 'Metodologías de visualización de datos'
+module.exports = 'Desarrollo web con HTML, CSS y JavaScript'

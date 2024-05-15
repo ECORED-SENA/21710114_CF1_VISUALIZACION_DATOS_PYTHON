@@ -1,276 +1,318 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 2
-      h1 Introducción a la estadística
-    p.mb-5 Hoy en día, es común escuchar el término #[em Big Data] y, con eso, la necesidad de conocer acerca de la probabilidad y estadística como elementos imprescindibles. Los temas de minería de datos, #[em machine learning], más los millones de datos con los que se cuenta a diario, es lo que hoy se conoce como la ciencia de datos en conjunto. En este mundo, Python es el lenguaje potente que más permite trabajar con los datos y analizarlos de manera estadística.
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .row.align-items-center.bg-c2
-          .col-md-auto.px-lg-0.pt-4.pt-md-0
-            figure
-              img(src='@/assets/curso/tema2/img1.svg', style="width: 100px" ,alt='').m-auto
-          .col
-            .p-4
-              p.mb-0 Según López Briega (2018), la estadística suele ser definida como la ciencia de aprender de los datos o como la ciencia de obtener conclusiones en la presencia de incertidumbre.
-    .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img1.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-8
-        p Se relaciona principalmente con la recolección, análisis e interpretación de datos, así como con la efectiva comunicación y presentación de los resultados basados en esos datos; estos últimos entendiéndose como cualquier clase de información grabada.
-        p.mb-0 La estadística juega un rol importante en muchas disciplinas científicas; de allí que ha jugado un papel importante en la toma de decisiones, pues existe innumerable información valiosa entre los datos. La estadística brinda opciones o métodos para extraer esta información adecuadamente y entenderla, verificando la calidad de esta. Se encuentra dividida en dos ramas: estadística descriptiva y estadística inferencial, como se ve en el siguiente video:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/wMCDkknpUVw?si=An-B2fsRQCp3k692" title="Introducción a la estadística" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Introducción a la estadística
+	BannerInterno
+	.container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+		.titulo-principal.color-acento-contenido
+			.titulo-principal__numero
+				span 2
+			h1 Hojas de estilo 
+		p.mb-5(data-aos='fade-right') Las hojas de estilo, conocidas como CSS (Cascading Style Sheets), son el mecanismo que confiere apariencia a una página web. Para ello, se crea un archivo con extensión .css, el cual contiene el código de estilización. Este código se compone de selectores (que pueden ser etiquetas HTML, clases, identificadores, entre otros) y un conjunto de propiedades y valores que definen el estilo de los elementos seleccionados. 
+		.tarjeta.p-5.mb-5(data-aos="fade-right" style="background-color: #d6e0f7 ")
+			.row.justify-content-center.align-items-center
+				.col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.svg', alt='')
+				.col-lg-11(data-aos="fade-left")
+					p.mb-0 La principal ventaja de utilizar CSS es la capacidad de reutilizar el mismo código en múltiples páginas web, lo que facilita la implementación de un diseño coherente a lo largo de todo el sitio. Además, el uso de hojas de estilo mejora significativamente el mantenimiento y control del diseño de un sitio web, permitiendo cambios globales en la presentación con modificaciones en un solo archivo.
+		h5.mb-4 A continuación, se muestra un esquema general de cómo se puede implementar código CSS en una página web: 
+		.titulo-sexto.color-acento-contenido(data-aos='fade-right')
+			h5 Figura 4. 
+			span Esquema general CSS 
+		.f-2-1.p-5.mb-5
+			.row.justify-content-center.mb-5
+				.col-lg-7.d-lg-block.d-none: img(src='@/assets/curso/temas/19.svg', alt='El CSS se deriva en las “clases” esta se subdivide en “tags” y “atributos”. Derivando estas finalmente en la página web.')
+				.col-lg-7.d-lg-none.d-block: img(src='@/assets/curso/temas/20.svg', alt='El CSS se deriva en las “clases” esta se subdivide en “tags” y “atributos”. Derivando estas finalmente en la página web.')
+		.f-2-2.mn.p-5.mb-5
+			h5.mb-4 Al momento de implementar las CSS es necesario tener en cuenta los siguientes puntos: 
+			.row.justify-content-center.mb-5
+				.col-lg-4.mb-lg-0.mb-3
+					.tarjeta.p-4(style="background-color: #f7eefe") 
+						h5 Separación de estructura del documento
+						p Se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros)
+				.col-lg-4
+					.tarjeta.p-4(style="background-color: #d8fffa") 
+						h5 Optimización de carga: Utilizar CSS 
+						p eficientemente permite reducir el tiempo de carga de las páginas web al minimizar el uso de recursos innecesarios. Esto se logra mediante la combinación de archivos, minimización de código y uso de selectores y reglas CSS adecuadas para el diseño responsive.
+			.row.justify-content-center.mb-5
+				.col-lg-4.mb-lg-0.mb-3
+					h5.mb-4 Un ejemplo de código de hoja interna es:
+					.tarjeta-codigo.p-5.mb-5
+						pre.language-css(language="css").mt-5
+							code
+								| &lt;head&gt; 
+								| &lt;style&gt; 
+								| body{ background-color: #FFFFFF; 
+								| } 
+								| h1{ 
+								| color: #000000; 
+								| text-align: center; 
+								| } 
+								| &lt;/style&gt; 
+								| &lt;/head&gt; 
+								| &lt;body&gt; 
+								| &lt;/body&gt; 
+				.col-lg-4.mb-lg-0.mb-3
+					h5.mb-4 Un ejemplo de código de hoja externa es:  
+					.tarjeta-codigo.p-5.mb-5
+						pre.language-html(language="html").mt-5
+							code
+								| &lt;head&gt; 
+								| &lt;link rel=“stylesheet” type=“text/css” href=“estilo.css”&gt; 
+								| &lt;/head&gt; 
+								| &lt;body&gt; 
+								| &lt;/body&gt; 
+				.col-lg-4.mb-lg-0.mb-3
+					h5.mb-4 Un ejemplo de código de hoja en sitio web es: 
+					.tarjeta-codigo.p-5.mb-5
+						pre.language-html(language="html").mt-5
+							code
+								|&lt;head&gt; 
+								|&lt;link rel=“stylesheet” type=“text/css” href=“https://www.estilo.css”&gt; 
+								|&lt;/head&gt; 
+								|&lt;body&gt; 
+								|&lt;/body&gt; 
+			.row.justify-content-center.mb-5
+				.col-lg-10
+					.tarjeta.color-primario.p-5.mb-5
+						.row.justify-content-center.align-items-center
+							.col-lg-2.col-6: img(src='@/assets/curso/temas/12.svg', alt='')
+							.col-lg-10
+								h5.mb-3: span.titulo-azul.p-2 ¡Importante! 
+								p(data-aos='fade-right') Los selectores de CSS, se utilizan para determinar los elementos a los que se va a aplicar el estilo y se clasifican por nombre, por id de selector y por clase.
+			.row.justify-content-center.mb-5
+				.col-lg-7.mb-lg-0.mb-3
+					AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--morada")
+						.p-4(titulo="De selector de nombre ")
+							p Donde se llama directamente al tag (h2) al que se debe aplicar el estilo. 
+								br
+								|Ejemplo de selector de nombre: 
+							.tarjeta.bg-white.p-4
+									code h2 {
+										br
+										|text-align: left;color: #[span.color-rojo red;]
+										br
+										|}
+							
+						.p-4(titulo="De selector por id ")
+							p Donde solo se aplica un elemento único. Aquí el nombre del estilo va precedido por el carácter “#”. Ejemplo de selector por id: 
+							.tarjeta.bg-white.p-4
+									code #texto1 { 
+										br
+										|text-align: center; color: #[span.color-blue blue;] 
+										br
+										|} 
+						.p-4(titulo="De selector de clase ")
+							p En este caso se pueden personalizar los estilos para aplicarlos a diferentes elementos que comparten alguna relación, para ello se debe escribir un punto (.) delante del nombre de la clase. Ejemplo de selector de clase: 
+							.tarjeta.bg-white.p-4
+									code .nombreMiclase { 
+										br
+										|text-align: center; color: #[span.color-rojo red;] 
+										br
+										|} 
+				.col-lg-5.col-7: img(src='@/assets/curso/temas/24.png', alt='')
+		Separador 
+		#t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+			h2 2.1 Introducción CSS3 
+		.row.justify-content-center.align-items-center
+				.col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/25.svg', alt='')
+				.col-lg-11(data-aos="fade-left")
+					p.mb-0 CSS3 representa una evolución significativa respecto a sus predecesores, CSS y CSS2, introduciendo una serie de mejoras que pueden categorizarse principalmente en dos aspectos:  
+		.row.justify-content-center.mb-5
+			.col-lg-5.mb-lg-0.mb-3
+					.tarjeta.color-primario.p-4
+						.row.justify-content-center.mb-3
+							.col-4
+								figure
+									img(src='@/assets/curso/temas/26.svg', alt='Texto que describa la imagen')
+						h4.text-white Aplicación del concepto de módulos: 
+						p.text-white esta característica transforma la forma en que se definen los estilos de un sitio web, acercándose más a un enfoque de programación modular. Los módulos permiten organizar los estilos en contextos específicos y mantenerlos en archivos separados, lo que facilita su gestión y reutilización. Aunque la mención de archivos con extensión .less se asocia con un preprocesador CSS específico, el concepto modular en sí es fundamental para organizar CSS de manera más eficiente y no se limita a una extensión de archivo específica.
+			.col-lg-5.mb-lg-0.mb-3
+					.tarjeta.color-acento-contenido.p-4.h-100
+						.row.justify-content-center.mb-3
+							.col-4
+								figure
+									img(src='@/assets/curso/temas/27.svg', alt='Texto que describa la imagen')
+						h4(style="color:#12263f ") Enriquecimiento visual y funcional de los elementos: 
+						p(style="color: #12263f") CSS3 amplía las posibilidades de diseño y animación de los elementos en las páginas web. Esto incluye la implementación de animaciones, transiciones, maquetaciones con columnas, gradientes para modificar colores, transformaciones para rotar y escalar elementos, y el uso de fuentes de texto externas a través de librerías. Estas herramientas permiten a los diseñadores y desarrolladores web crear experiencias de usuario más ricas y dinámicas.
+		p.mb-5(data-aos='fade-right') Estas innovaciones hacen de CSS3 una herramienta poderosa para el diseño web moderno, permitiendo la creación de sitios web más atractivos, funcionales y accesibles. 
+		.row.justify-content-center.mb-5
+			.col-lg-6
+				h5.mb-4 Un ejemplo de estructura de uso de módulos:  
+				.tarjeta-codigo.p-5.mb-5
+					pre.language-html(language="html").mt-5
+						code
+							br
+							|.styles/ 
+							br
+							|..controlador.less 
+							br
+							|..módulos/ 
+							br
+							|…configuraciones/ 
+							br
+							|….menu.less 
+							br
+							|….comentarios.less 
+							br
+							|….right/ 
+							br
+							|…..right.less 
+							br
+							|….left/ 
+							br
+							|…..left.less 
+							br
+							|….center/ 
+							br
+							|…..center.less 
+							br
+							|…ayudas/ 
+							br
+							|….ayudas.less 
+							br
+							|/**** Contenido de archivo controlador.less *****/ 
+							br
+							|@import módulos/configuraciones/menu.less 
+							br
+							|@import módulos/ayudas/ayudas.less 
+		Separador 
+		#t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+			h2 2.2 Estructura  
+		.f-2-3.p-5.mn.mb-5.pt-0
+			.row.justify-content-center.mb-5
+				.col-lg-7(data-aos="fade-right")
+					.p-4(style="background-color: #f2e5fd")
+						p.mb-0 La estructura de CSS3 se basa en un conjunto de reglas almacenadas en un archivo. Cada regla consta de un selector, utilizado para identificar el elemento HTML al que se aplicarán los estilos, seguido de una o más declaraciones, que se separan entre sí por punto y coma (;). Una declaración incluye una propiedad y un valor asignado a esa propiedad. Además de definirse en un archivo CSS externo, estas declaraciones de estilo también pueden aplicarse directamente sobre un elemento HTML específico utilizando el atributo #[span.color-morado #[em style]]. Para ello, se coloca la propiedad, seguida de dos puntos y su valor correspondiente, todo ello entre comillas dentro del atributo style en la etiqueta HTML deseada. 
+				.col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/28.svg', alt='')
+			.row.justify-content-center.mb-5
+				.col-lg-10
+					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
+						h5 Figura 5.
+						span Ejemplo de estructura CSS3
+					img.d-none.d-lg-block(src='@/assets/curso/temas/29.svg', alt='Código que incluye dos reglas:SELECTOR { "PROPIEDAD : VALOR ; PROPIEDAD DOS : VALOR;"}')
+					img.d-block.d-lg-none(src='@/assets/curso/temas/30.svg', alt='Código que incluye dos reglas:SELECTOR { "PROPIEDAD : VALOR ; PROPIEDAD DOS : VALOR;"}')
+			.row.justify-content-center.mb-5
+				.col-lg-6
+					
+					h4.mb-4 Un ejemplo con uso del atributo style 
+					.tarjeta-codigo.p-5.mb-5
+						pre.language-html(language="html").mt-5
+							code
+								|&lt;html&gt; 
+								|&lt;head&gt; 
+								|&lt;title&gt; 
+								|&lt;/title&gt; 
+								|&lt;/head&gt; 
+								|&lt;body&gt;  
+								|&lt;h1 style=”color:red; size:30 px”&gt;Texto1&lt;/h1&gt; 
+								|&lt;h2 style=”color:blue; size:40 px”&gt;Texto2&lt;/h2&gt; 
+								|&lt;h3 style=”color:green; size:50 px”&gt;Texto3&lt;/h3&gt; 
+								|&lt;/body&gt; 
+								|&lt;/html&gt; 
+		Separador
+		#t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+			h2 2.3 Formulario CSS3 
+		.f-2-3.mn.p-5.mb-5.pt-0
+			.row.justify-content-center.mb-5
+				.col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
+					.p-4(style="background-color: #EFE4F9 ")
+						p.mb-0 Los formularios en HTML se construyen siguiendo los principios básicos discutidos anteriormente. Sin embargo, con la introducción de HTML5, se han agregado nuevas funcionalidades que enriquecen los formularios web, incluyendo nuevos tipos de datos #[span.color-morado (como color, tel, email, date, url, time, month, number, week, datetime-local, range, y search)], nuevos controles (output) y nuevos atributos (placeholder, autofocus, min, max, required, step, y pattern). Según la recomendación del W3C, es importante verificar la compatibilidad de estas nuevas características con diferentes navegadores. Aunque inicialmente algunas de estas innovaciones se soportaban principalmente en navegadores específicos como Opera, la compatibilidad ha mejorado significativamente con el tiempo, y actualmente, muchos navegadores modernos soportan estas características. 
+				.col-lg-5.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/31.svg', alt='')
+			.row.justify-content-center.mb-5
+				.col-lg-10
+					h4.mb-4 Un ejemplo de formulario CSS3 es: 
+					.tarjeta-codigo.p-5.mb-5
+						pre.language-html(language="html").mt-5
+							code
+								| &lt;html&gt; 
+								br
+								| &lt;head&gt; 
+								br
+								| &lt;meta charset=“utf-8” /&gt; &lt;title&gt;Nuevos componentes&lt;/title&gt; 
+								br
+								| &lt;/head&gt; 
+								br
+								| &lt;body&gt; 
+								br
+								| &lt;form action=“.” oninput=“range_control_value.value = range_control.valueAsNumber”&gt; 
+								br
+								| &lt;p&gt; 
+								br
+								| Nombre: &lt;input type=“text” name=“name_control” autofocus required /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Email: &lt;input type=“email” name=“email_control” required /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| URL: &lt;input type=“url” name=“url_control” placeholder=“Escripe la URL de tu página web personal” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Fecha: &lt;input type=“date” name=“date_control” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Tiempo: &lt;input type=“time” name=“time_control” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Fecha y hora de nacimiento: &lt;input type=“datetime” name=“datetime_control” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Mes: &lt;input type=“month” name=“month_control” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Semana: &lt;input type=“week” name=“week_control” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Número (min -10, max 10): &lt;input type=“number” name=“number_control” min=“-10” max=“10” value=“0” /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Intervalo (min 0, max 10): &lt;input type="range" name="range_control" min="0" max="10" value="0" /&gt;  
+								br
+								| &lt;output for="range_control" name="range_control_value" &gt;0&lt;/output&gt; 
+								br
+								| &lt;br /&gt; 
+								br
+								| Teléfono: &lt;input type="tel" name="tel_control" /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| Término de búsqueda: &lt;input type="search" name="search_control" /&gt; 
+								br
+								| &lt;br /&gt; 
+								br
+								| Color Favorito: &lt;input type="color" name="color_control" /&gt; 
+								br
+								| &lt;br/&gt; 
+								br
+								| &lt;input type="submit" value="Submit!" /&gt; 
+								br
+								| &lt;/p&gt; 
+								br
+								| &lt;/form&gt; 
+								br
+								| &lt;/body&gt; 
+								br
+								| &lt;/html&gt; 
+					h4.mb-4 El resultado del código anterior de formulario CSS3 es: 
+					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
+						h5 Figura 6. 
+						span Resultado código del formulario. 
+					img(src='@/assets/curso/temas/32.svg', alt='')
 
-    p.mb-5 Las siguientes son algunas actividades básicas en el análisis estadístico:
-    .row.justify-content-center
-      .col-lg-6.bg-c8.mb-4.mb-lg-0
-        .p-4
-          ul.lista-ul.mb-0
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Diseño del análisis.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Exploración de datos.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Armado del modelo.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Realizar estimaciones.]
-            li.mb-0
-              i.lista-ul__vineta
-              span #[b Contraste de la hipótesis.]
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema2/img2.png', style="width: 590px" ,alt='').m-auto
-    Separador
-    #t_2_1
-    .titulo-segundo.color-acento-contenido
-      h2 2.1 Análisis descriptivo
-    p.mb-5 Para exponer la particularidad de los datos, es necesario tener diferentes medidas, estas son algunas de ellas:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
-        p #[b Media aritmética]
-        p Indica el resultado de haber sumado todos los datos y dividirlos por el total de los elementos sumados. Se representa por la letra griega μ. Dicho de otra manera, si tenemos una muestra de n valores Xi, la media aritmética μ, es la suma de los valores divididos por el número de elementos, así:
-        figure
-          img(src='@/assets/curso/tema2/img2.svg', style="width: 160px" ,alt='Fórmula de la media aritmética en la que se suman todos los valores divididos por el total de los elementos.').m-auto
-      .tarjeta.color-acento-botones.p-4
-        p #[b Desviación respecto a la media]
-        p La definición puntual de la desviación respecto a la media enfatiza en la diferencia en el valor absoluto entre cada valor de la variable estadística y la media aritmética.
-        figure
-          img(src='@/assets/curso/tema2/img3.svg', style="width: 160px" ,alt='Fórmula de la desviación respecto a la media, en la que se resta el valor absoluto y la media aritmética.').m-auto
-      .tarjeta.color-acento-botones.p-4
-        p #[b Varianza]
-        p Es la media aritmética del cuadrado de las desviaciones respecto a la media de una distribución estadística. La varianza intenta describir la dispersión de los datos. Se representa como σ2.
-        figure
-          img(src='@/assets/curso/tema2/img4.svg', style="width: 160px" ,alt='Fórmula de la varianza, la cual es el promedio de las distancias al cuadrado que van desde la distribución a la media.').m-auto
-      .tarjeta.color-acento-botones.p-4
-        p #[b Desviación típica]
-        p Es la raíz cuadrada de la varianza. Se representa con la letra griega σ.
-        figure
-          img(src='@/assets/curso/tema2/img5.svg', style="width: 160px" ,alt='Fórmula de la desviación típica y se escribe como la raíz cuadrada de la varianza.').m-auto
-      .tarjeta.color-acento-botones.p-4
-        p #[b Moda]
-        p La moda es el valor que tiene mayor frecuencia absoluta. Se representa con M0.
-      .tarjeta.color-acento-botones.p-4
-        p #[b Mediana]
-        p Es el valor que ocupa el lugar central de todos los datos cuando estos están ordenados de menor a mayor. Se representa con x˜
-      .tarjeta.color-acento-botones.p-4
-        p #[b Correlación]
-        p Indica el resultado de haber sumado todos los Trata de establecer la relación o dependencia que existe entre las dos variables que intervienen en una distribución bidimensional. Es decir, determinar si los cambios en una de las variables influyen en los cambios de la otra. En caso de que suceda, diremos que las variables están correlacionadas o que hay correlación entre ellas. La correlación es positiva cuando los valores de las variables aumentan juntos; y es negativa cuando un valor de una variable se reduce cuando el valor de la otra variable aumenta.
-      .tarjeta.color-acento-botones.p-4
-        p #[b Covarianza]
-        p Es el equivalente de la varianza aplicado a una variable bidimensional. Es la media aritmética de los productos de las desviaciones de cada una de las variables respecto a sus medias respectivas. La covarianza indica el sentido de la correlación entre las variables: si σxy>0, la correlación es directa; si σxy<0, la correlación es inversa.
-        figure
-          img(src='@/assets/curso/tema2/img6.svg', style="width: 240px" ,alt='Fórmula de la covarianza. Se calcula la media de cada variable por separado. Luego, se halla la diferencia entre cada valor, se multiplican y se suma el resultado obtenido para al final dividirlo entre el número total de datos.').m-auto
-      .tarjeta.color-acento-botones.p-4
-        p #[b Valor atípico]
-        p Es una observación que se aleja demasiado de la moda; está muy lejos de la tendencia principal del resto de los datos. Pueden ser causados por errores en la recolección de datos o medidas inusuales. Generalmente, se recomienda eliminarlos del conjunto de datos.
-    p.mb-4 Como se observa, el análisis descriptivo se plantea para dar algún tipo de respuesta a algún planteamiento formulado al inicio del requerimiento estadístico; sin embargo, lo que busca este tipo de análisis estadístico es realizar una recolección de datos y tratar de organizarlos a manera representativa por medio de gráficos y medios visuales de fácil interpretación para el usuario, y así poder extraer las características que más representen a un grupo de datos, para luego trazar una tendencia de ellos.
-    .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img3.png', style="width: 450px" ,alt='').m-auto
-      .col-lg-8
-        .row.bg-c2.mb-3
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema2/img7.svg', style="width: 70px" ,alt='').m-auto
-          .col
-            .row
-              .col-12
-                .p-4
-                  p.mb-0 De esta manera, hoy se puede decir que es un método que va de la mano con los sucesos y se enfoca en ellos, recolectando información y conectando los datos entre sí, de manera que sea posible conformar una información precisa y contundente; gracias a este tipo de análisis, se puede saber más acerca de una población en especial y tomar algún tipo de determinación según la información, tanto cualitativa como cuantitativa.
-        p.mb-0 Python maneja unas librerías que facilitan el manejo de las matemáticas y la estadística; no es la excepción y, para fortuna de todos, la comunidad de Python es tan grande que es normal siempre encontrar librerías que solucionan cualquier situación. En ese orden de ideas, Python ofrece un abanico de librerías que ayudan a la solución de problemas estadísticos y de probabilidad; las librerías ideales para este tipo de ejercicios son las siguientes:
-
-    .row.mb-5.justify-content-center
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-1.svg', alt='')
-
-          h3.text-center NumPy
-
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-2.svg', alt='')
-
-          h3.text-center scipy.stats
-
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-3.svg', alt='')
-
-          h3.text-center statsmodels
-
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-4.svg', alt='')
-
-          h3.text-center Matplotlib
-
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-5.svg', alt='')
-
-          h3.text-center Seaborn
-
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-6.svg', alt='')
-
-          h3.text-center Pandas
-
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4.mb-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/tema2/img21-7.svg', alt='')
-
-          h3.text-center pyMC
-
-    Separador
-
-    #t_2_2
-    .titulo-segundo.color-acento-contenido
-      h2 2.2 Inferencia estadística
-    .row.align-items-center.mb-5
-      .col-md-auto
-        figure.mb-4.mb-xl-0
-          img(src='@/assets/curso/tema2/img9.svg', style="width: 170px" ,alt='').m-auto
-      .col
-        p.mb-0 Según López Briega (2018), “La estadística inferencial estudia cómo sacar conclusiones generales para toda la población a partir del estudio de una muestra y el grado de fiabilidad o significación de los resultados obtenidos. Sus principales herramientas son el #[b muestreo, la estimación de parámetros y el contraste de hipótesis”].
-    .row.justify-content-center.mb-5
-      .col-md-7.col-lg-auto.px-0
-        figure
-          img(src='@/assets/curso/tema2/img4.png', style="width: 440px" ,alt='').m-auto
-      .col-md-7.col-lg-6.bg-c5
-        .p-4
-          p.mb-0 La probabilidad aporta componentes fuertes para trabajar con la estadística inferencial, teniendo entre los datos una posibilidad de reducción de errores cuando se está examinando su comportamiento en el tiempo. Cuando se habla de inferencia, se habla de concluir desde supuestos particulares o generalizados.
-    p Hay dos métodos para la inferencia estadística:
-    .row.justify-content-center.mb-5
-      .col-11.col-md-10.col-lg-6
-        .row.h-100
-          .col-12.bg-c9
-            .p-4
-              figure.mb-4
-                img(src='@/assets/curso/tema2/img10.svg', style="width: 440px" ,alt='').m-auto
-              p.mb-0 #[b Métodos de estimación de parámetros]
-              p.mb-0 Consisten en asignar un valor al parámetro caracterizado en un conjunto de datos que son el objeto de estudio. Cuando se habla de estimación, también se está contemplando la posibilidad de errores; para la reducción de estos, hay que puntualizar intervalos de confianza.
-      .col-11.col-md-10.col-lg-6
-        .row.h-100
-          .col-12.bg-c9
-            .p-4
-              figure.mb-4
-                img(src='@/assets/curso/tema2/img11.svg', style="width: 440px" ,alt='').m-auto
-              p.mb-0 #[b Métodos de contraste de hipótesis]
-              p.mb-0 Tienen como objetivo comprobar si una estimación corresponde a los valores poblacionales. Cuando se hace un contraste de hipótesis, siempre hay dos supuestos: la hipótesis nula y la hipótesis alternativa.
-    .row.justify-content-center
-      .col-lg-10
-        .row.bg-c2
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema2/img13.svg', style="width: 70px" ,alt='').m-auto
-          .col
-            .row
-              .col-12
-                .p-4
-                  p.mb-0 Cuando se traslada la estadística inferencial al plano de desarrollo en Python, se está hablando de invocar las librerías que se estudiaron en los anteriores ítems realizando básicamente las mismas operaciones, pero con distintos objetivos, dependiendo del criterio con que se utilicen.
-    Separador
-    #t_2_3
-    .titulo-segundo.color-acento-contenido
-      h2 2.3 Aprendizaje no supervisado
-    .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img5.png', style="width: 440px" ,alt='').m-auto
-      .col-lg-9
-        p Los algoritmos de lenguajes no supervisados son un conjunto de datos sin etiquetas y desordenados, que no tienden a indicar nada; estos métodos de aprendizaje no supervisado no se pueden aplicar a problemas de clasificación o de regresión, porque no se sabe el resultado que van a arrojar; sin embargo, el aprendizaje sin supervisión se dice que puede descubrir la estructura subyacente de los datos.
-        .row.bg-c2.mb-3
-          .col-auto.px-0
-            figure
-              img(src='@/assets/curso/tema2/img14.svg', style="width: 70px" ,alt='').m-auto
-          .col
-            .row
-              .col-12
-                .p-4
-                  p.mb-0 Los algoritmos de aprendizaje sin supervisión permiten realizar operaciones más robustas que los supervisados, de esta manera, los supervisados son usados para analizar cadenas de datos que tienen concordancia y similitud en un grupo de datos.
-        p.mb-0 El aprendizaje no supervisado lo que realiza es tratar de analizar patrones que no sean reconocidos en los datos; la gran mayoría de veces, los datos son aproximaciones que el aprendizaje supervisado puede acertar, lo que hace que sean más usados en la aplicación de problemas en el mundo real.
-    .row.justify-content-center.mb-5
-      .col-md-7.col-lg-auto.px-0
-        figure
-          img(src='@/assets/curso/tema2/img6.png', style="width: 440px" ,alt='').m-auto
-      .col-md-7.col-lg-6.bg-c5
-        .p-4
-          p.mb-0 El momento de utilizar el aprendizaje no supervisado es cuando no se tiene conocimiento de los datos que van a resultar. Trasladándolo al mundo real, es como vender un producto totalmente nuevo a un mercado incierto, donde la compañía no tiene ninguna experiencia; pero si lo que busca es comprender alguna información dentro de sus clientes existentes, el aprendizaje supervisado es la opción.
-    p.mb-5 Las razones por las cuales se utiliza el aprendizaje no supervisado son las siguientes:
-    .row.justify-content-center
-      .col-lg-10.bg-c8
-        .p-4
-          ul.lista-ul.mb-0
-            li.mb-0
-              i.lista-ul__vineta
-              | #[b Se encuentra con todo tipo de patrones desconocidos en los datos.]
-            li.mb-0
-              i.lista-ul__vineta
-              | #[b Ayuda a encontrar datos útiles para la categorización.]
-            li.mb-0
-              i.lista-ul__vineta
-              | #[b La facilidad para encontrar datos no etiquetados.]
 
 </template>
 
 <script>
-import SlyderF from '@/components/SlyderF.vue'
+import 'prismjs'
+import 'prismjs/themes/prism-tomorrow.min.css'
 export default {
   name: 'Tema2',
-  components: { SlyderF },
   data: () => ({
     // variables de vue
   }),
