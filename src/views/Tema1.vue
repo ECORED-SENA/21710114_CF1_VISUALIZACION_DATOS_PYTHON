@@ -13,8 +13,8 @@
           p.mb-0 HTML5 es la piedra angular de la creación de contenido web moderno, permitiendo a los desarrolladores y diseñadores web construir experiencias ricas e interactivas en línea. A continuación, se detalla su definición y aplicación: 
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/ogBeRgyDD9s?si=blrEKkit6KbJLFZE" title="HTML 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: HTML 5
       p.mb-5(data-aos='fade-right') El conjunto de características y funcionalidades de cada etiqueta, que ha evolucionado con el tiempo, se conoce como HTML. Actualmente, está en la versión 5, la cual es regulada por el Consorcio World Wide Web (W3C). 
       .row.justify-content-center.mb-4
         .col-lg-10
