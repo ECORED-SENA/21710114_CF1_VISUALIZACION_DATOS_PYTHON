@@ -18,7 +18,7 @@
         .col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/2.svg', alt='')
         .col-lg-11(data-aos="fade-left")
           p.mb-0 En la era digital de hoy, la demanda por interfaces web intuitivas, eficientes y estéticamente agradables está en constante aumento. Las organizaciones y desarrolladores buscan innovar constantemente en este campo para mejorar la experiencia del usuario, reconociendo que una interacción positiva con la interfaz puede ser decisiva para el éxito de una aplicación web. Esta evolución no solo se centra en la estética visual sino también en la funcionalidad, con un enfoque particular en la adaptabilidad y la accesibilidad.
-      p Las interfaces modernas están diseñadas para ser fluidas y eficaces en una amplia gama de dispositivos, desde computadoras de escritorio y portátiles hasta tabletas y smartphones, garantizando así una experiencia de usuario coherente y satisfactoria independientemente del medio utilizado. 
+      p Las interfaces modernas están diseñadas para ser fluidas y eficaces en una amplia gama de dispositivos, desde computadoras de escritorio y portátiles hasta tabletas y #[em smartphones], garantizando así una experiencia de usuario coherente y satisfactoria independientemente del medio utilizado. 
       h5.mb-5(style="color: #8722E2 ") El diseño de interfaces web abarca múltiples dimensiones clave para el éxito en el entorno digital actual: 
       .row.justify-content-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")

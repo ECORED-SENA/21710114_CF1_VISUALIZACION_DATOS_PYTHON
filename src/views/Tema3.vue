@@ -41,7 +41,7 @@
           .row
             .col-lg-6.mb-4.mb-md-0
               h4: span.color-morado Código interno 
-              p Aquí se incluye el código dentro del tag &lt;script&gt;&lt;/script&gt; después del tag &lt;title&gt;. Ejemplo de código interno: 
+              p Aquí se incluye el código dentro del #[em tag] &lt;script&gt;&lt;/script&gt; después del #[em tag] &lt;title&gt;. Ejemplo de código interno: 
             .col-lg-6
               .tarjeta-codigo.p-5.mb-5
                 pre.language-html(language="html").mt-5
@@ -147,7 +147,7 @@
             .p-4(titulo="Las constantes ")
               p.mb-4 Como su nombre lo indica, sirven para definir valores únicos que se pueden utilizar en diferentes partes del programa; se definen con la palabra “const” seguida del nombre de variable, el símbolo igual y termina con punto y coma. Ejemplo de constante: 
               pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
-                code cons gravedadTierra=9.8;  
+                code const gravedadTierra=9.8;  
             .p-4(titulo="Los operadores ")
               p.mb-4 Se definen en tres grupos: operadores de asignación, operadores de relación y los operadores lógicos. 
               ul.lista-ul--color
@@ -192,10 +192,11 @@
         LineaTiempoC.color-acento-botones(text-small)
           .p-4(titulo="Variables numéricas ")
             p.mb-3 Permite almacenar cadenas de texto dentro de las comillas, para bajar un renglón en el texto se debe utilizar \n, para agregar un tabulador \t, para comilla simple \’, para comillas dobles \”, y para barra inclinada \\. Ejemplo de variable de caracteres: 
-            pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
-                code var nombreApellidos=”JUAN ESTEBAN GOMEZ \n”; 
-                  br
-                  |var mensaje =”Este es mi primer mensaje de bienvenida \t  \’VALOR\’ ”; 
+            pre.language-html(language="html").mt-5
+              code var nombreApellidos = ”JUAN ESTEBAN GOMEZ \n”; 
+                br
+                |var mensaje = ”Este es mi primer mensaje de bienvenida \t  \’VALOR\’ ”; 
+
           .p-4(titulo="Variables numéricas ")
             p.mb-3 Se utilizan para definir variables enteras (integer), reales (float), hexadecimal (0x) y octal (0). Ejemplo de variable numérica: 
             pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
@@ -211,40 +212,40 @@
               br
               br
               |Ejemplo de variable tipo arreglo: 
-            pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
-                code var diasSemana = [“Lunes”, “Martes”, “Miercoles”, “Jueves”, “Viernes”,”Sabado”, “Domingo”]; 
+            pre.language-html(language="html").mt-5
+              code var diasSemana = [“Lunes”, “Martes”, “Miercoles”, “Jueves”, “Viernes”,”Sabado”, “Domingo”]; 
           .p-4(titulo="Variables tipo lógico ")
             p.mb-3 Permiten definir variables booleanas falso o verdadero. Ejemplo de variable de tipo lógico:
-            pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
-                code var esCasada=true; 
-                  br
-                  |var tieneHijos=false; 
+            pre.language-html(language="html").mt-5
+              code var esCasada=true; 
+                br
+                |var tieneHijos=false; 
           .p-4(titulo="Variables tipo objeto ")
             p.mb-3 Son variables que, a diferencia de los arreglos, se definen dentro de llaves con el nombre de propiedad y su valor. Ejemplo de variable tipo objeto: 
-            pre.language-js.tarjeta(style="background-color: #110628").p-4.d-inline-block
-                code var miCarro={ 
-                  br
-                  |placa=’X45-56’, 
-                  br
-                  |modelo=’2015’, 
-                  br
-                  |marca=’HONDA’, 
-                  br
-                  |} ; 
-                  br
-                  |alert(“Esta es la placa de mi carro…”+miCarro.placa);
+            pre.language-html(language="html").mt-5
+              code var miCarro={ 
+                br
+                |placa=’X45-56’, 
+                br
+                |modelo=’2015’, 
+                br
+                |marca=’HONDA’, 
+                br
+                |} ; 
+                br
+                |alert(“Esta es la placa de mi carro…”+miCarro.placa);
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2  3.4 Estructuras de control
     .f-3-5.p-5.mn.mb-5
-      p.mb-5(data-aos='fade-right') programador con lenguajes de programación y la gente está codificando.En un programa JavaScript, las líneas de código se ejecutan de forma secuencial, es decir, en el orden en que aparecen: primero la primera línea, luego la segunda, la tercera, y así sucesivamente, nunca invirtiendo este orden, lo cual determina el flujo del programa. Durante este flujo, puede surgir la necesidad de tomar decisiones basadas en condiciones específicas, momento en el cual se emplean las estructuras condicionales, que pueden derivar en acciones diferentes dependiendo de si la condición evaluada resulta verdadera o falsa. Asimismo, en ciertos puntos del programa puede ser necesario iterar sobre estructuras de datos, como arreglos, para lo cual se utilizan bucles o ciclos. 
+      p.mb-5(data-aos='fade-right') En un programa JavaScript, las líneas de código se ejecutan de forma secuencial, es decir, en el orden en que aparecen: primero la primera línea, luego la segunda, la tercera, y así sucesivamente, nunca invirtiendo este orden, lo cual determina el flujo del programa. Durante este flujo, puede surgir la necesidad de tomar decisiones basadas en condiciones específicas, momento en el cual se emplean las estructuras condicionales, que pueden derivar en acciones diferentes dependiendo de si la condición evaluada resulta verdadera o falsa. Asimismo, en ciertos puntos del programa puede ser necesario iterar sobre estructuras de datos, como arreglos, para lo cual se utilizan bucles o ciclos. 
       .titulo-tres.mb-4: h3.mb-0 El condicional if
       p.mb-4(data-aos='fade-right') El más conocido de los condicionales, si se cumple la condición continúa ese camino. Se escribe entre paréntesis después de la palabra reservada if. Ejemplo con condicional if:  
       .row.justify-content-center.mb-4
         .col-lg-6
           .tarjeta-codigo.p-5.mb-5
             pre.language-html(language="html").mt-5
-              code ar edad=17; 
+              code var edad=17; 
                 br
                 |//Condicional para saber si es mayor de edad 
                 br
@@ -254,7 +255,7 @@
                 br
                 |} 
       .titulo-tres.mb-4: h3.mb-0 Condicional if/else 
-      p.mb-4(data-aos='fade-right') Este condicional indica el camino alterno que puede seguir el programa en el caso que no se cumpla la condición de la palabra reservada if. Ejemplo con condicional if/else: 
+      p.mb-4(data-aos='fade-right') Este condicional indica el camino alterno que puede seguir el programa en caso de que no se cumpla la condición de la palabra reservada #[em if]. Ejemplo con condicional #[em if/else]: 
       .row.justify-content-center.mb-4
         .col-lg-6
           .tarjeta-codigo.p-5.mb-5
@@ -271,7 +272,7 @@
                 br
                 |}else{ 
       .titulo-tres.mb-4: h3.mb-0 Operador ternario
-      p.mb-4(data-aos='fade-right')  Es una forma de escribir el condicional if/else pero de una manera más corta; se identifica con el símbolo “?”. Ejemplo con operador ternario 
+      p.mb-4(data-aos='fade-right')  Es una forma de escribir el condicional if/else pero de una manera más corta; se identifica con el símbolo “?”. Ejemplo con operador ternario.
       .row.justify-content-center.mb-4
         .col-lg-6
           .tarjeta-codigo.p-5.mb-5

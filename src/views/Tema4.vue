@@ -8,7 +8,7 @@
       h1 Gestores de contenido CMS
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-0  Los gestores de contenidos, conocidos como #[em #[span.color-morado CMS (Content Management System)]], surgieron para simplificar la labor de los administradores de sitios web, comúnmente llamados WebMasters. Su desarrollo ha avanzado significativamente, posicionándolos como herramientas clave para publicar información y contenido propio en la web. Esto permite a los usuarios gestionar sus sitios sin la necesidad de externalizar el servicio o contratar a un profesional, evitando así costos innecesarios.
+        p.mb-0  Los gestores de contenidos, conocidos como #[em #[span.color-morado CMS (Content Management System)]], surgieron para simplificar la labor de los administradores de sitios web, comúnmente llamados #[em webmasters]. Su desarrollo ha avanzado significativamente, posicionándolos como herramientas clave para publicar información y contenido propio en la web. Esto permite a los usuarios gestionar sus sitios sin la necesidad de externalizar el servicio o contratar a un profesional, evitando así costos innecesarios.
         h5.mb-5 A continuación, se presenta una figura que ilustra la integración general de un CMS en un sitio web: 
       .col-lg-3.col-7: img(src='@/assets/curso/temas/44.svg', alt='')
     .row.justify-content-center.mb-5
@@ -18,7 +18,7 @@
           span Integracion general del CMS
         img.d-none.d-lg-block(src='@/assets/curso/temas/45.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
         img.d-block.d-lg-none(src='@/assets/curso/temas/46.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-    p.mb-5(data-aos='fade-right') Un gestvor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
+    p.mb-5(data-aos='fade-right') Un gestor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
     .titulo-tres.mb-4: h3.mb-0 Funciones 
     h5.mb-4 A continuación, se describen las principales funciones que debe cumplir un CMS.
     .f-4-1.p-5.mb-5
@@ -97,7 +97,7 @@
           ul.lista-ul--color
             li
               i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | El frontend, corresponde a la parte visible del CMS para los usuarios que acuden como invitados o usuarios registrados. 
+              | El #[em frontend] corresponde a la parte visible del CMS para los usuarios que acuden como invitados o usuarios registrados. 
             li
               i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
               | Conformación modular para la configuración y personalización de los sitios web. 
@@ -106,7 +106,7 @@
               | Administración de usuarios, roles, perfiles y permisos de acceso. 
             li
               i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Componentes para la creación, edición, publicación de contenidos. 
+              | Componentes para la creación, edición y publicación de contenidos. 
             li
               i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
               | Plantillas para distribuir y mantener el diseño del sitio web. 
@@ -145,7 +145,7 @@
                 img(src='@/assets/curso/temas/61.png', alt='Texto que describa la imagen')
           p DotNetNuke Community Edition, Umbraco, mojoPortal, Kentico CMS, SharePoint Server, Telligent Community, Ektron CMS400.NET, Quantum Art QP7, webControl CMS, etc.
     h4.mb-4 Teniendo como base la distribución de la licencia: 
-    p.mb-5(data-aos='fade-right') #[span.color-morado De software libre (Open Source):] significa que esta herramienta no presenta costos de licencia y el código fuente es accesible para ser modificado por los desarrolladores.  El soporte técnico de este tipo de CMS es asumido por la entidad que lo implementa o por medio de comunidades online que comparten y mantienen su documentación.  
+    p.mb-5(data-aos='fade-right') #[span.color-morado De software libre (#[em Open Source]):] significa que esta herramienta no presenta costos de licencia y el código fuente es accesible para ser modificado por los desarrolladores.  El soporte técnico de este tipo de CMS es asumido por la entidad que lo implementa o por medio de comunidades online que comparten y mantienen su documentación.  
     .row.justify-content-center.mb-5
       .col-lg-8
         .tarjeta.color-primario.p-4
@@ -241,7 +241,7 @@
       .col-lg-2
         .tarjeta.tarjeta-iconos.p-2
           img(src='@/assets/curso/temas/75.svg', alt='')
-          h5.mb-0 Tiendas online o ecommerce
+          h5.mb-0 Tiendas #[em online] o #[em ecommerce]
       .col-lg-2
         .tarjeta.tarjeta-iconos.p-2
           img(src='@/assets/curso/temas/76.svg', alt='')

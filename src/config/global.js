@@ -193,7 +193,7 @@ export default {
   glosario: [
     {
       termino: 'CMS',
-      significado: 'Sistema manejador de contenidos.',
+      significado: 'Sistema de gestión de contenidos.',
     },
     {
       termino: 'CSS3',
@@ -342,7 +342,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -356,11 +356,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',

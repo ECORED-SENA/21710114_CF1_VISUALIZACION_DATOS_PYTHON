@@ -23,10 +23,10 @@
               .col-lg-1.col-6: img(src='@/assets/curso/temas/6.svg', alt='')
               .col-lg-11
                 h5.mb-3: span.titulo-azul.p-2 Sabias qué ?
-                p(data-aos='fade-right') El consorcio WWW en ingles: World Wide Web Consortium (W3C) es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento del World Web a largo plazo.
+                p(data-aos='fade-right') El consorcio WWW en inglés: World Wide Web Consortium (W3C) es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento del World Web a largo plazo.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Etiquetas (tags) 
+      h2 1.1 Etiquetas (#[em tags]) 
     .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/7.svg', alt='')
         .col-lg-11(data-aos="fade-left")
@@ -97,7 +97,6 @@
             span Etiquetas HTML para textos
           .tabla-a.color-acento-contenido.mb-5
             table
-              caption Leyenda de la tabla
               thead(style="background-color: #3a1d71")
                 tr
                   th.text-white  Etiqueta 
@@ -152,7 +151,7 @@
     .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.svg', alt='')
         .col-lg-11(data-aos="fade-left")
-          p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta <img> acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
+          p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta &lt;img /&gt;  acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
     .row.justify-content-center.mb-4
         .col-lg-10
           .tarjeta.color-primario.p-3.mb-5
@@ -282,16 +281,16 @@
       .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
       .col-lg-9
         .tarjeta.color-primario.p-4
-          p.mb-0.text-white La etiqueta #[span.color-azul &lt;form&gt;] se utiliza para definir un formulario y debe incluir, como mínimo, el atributo #[span.color-azul action], que especifica el destino al que se enviarán los datos. Además, es esencial definir el método de envío de los datos, que puede ser post o get, para determinar cómo se transmitirán estos datos al servidor. 
+          p.mb-0.text-white La etiqueta #[span.color-azul &lt;form&gt;] se utiliza para definir un formulario y debe incluir, como mínimo, el atributo #[span.color-azul action], que especifica el destino al que se enviarán los datos. Además, es esencial definir el método de envío de los datos, que puede ser #[em post] o #[em get], para determinar cómo se transmitirán estos datos al servidor. 
             br
             br
-            |A continuación, se describen algunos tags que comúnmente conforman un formulario, estos se deben encerrar dentro de la etiqueta principal del formulario #[span.color-azul &lt;form&gt;]:
+            |A continuación, se describen algunos #[em tags] que comúnmente conforman un formulario, estos se deben encerrar dentro de la etiqueta principal del formulario #[span.color-azul &lt;form&gt;]:
     .f-1-4.mn.mb-5.p-5.pt-0
       .row.justify-content-center.mb-5
         .col-lg-4
           .tarjeta.p-4(style="background-color: #f7eefe ")
             h5 &lt;input&gt; 
-            p Entrada de datos: estos pueden ser texto, número o alfanumérico; sus atributos más importantes son #[em type] para definir el tipo de entrada que puede ser #[em text], radio, #[em submit], #[em reset], el atributo id permite identificar de manera única el objeto en el archivo HTML, el atributo name es para darle un nombre a la entrada o variable y value para recibir el dato del componente. 
+            p Entrada de datos: estos pueden ser texto, número o alfanumérico; sus atributos más importantes son #[em type] para definir el tipo de entrada que puede ser #[em text], radio, #[em submit], #[em reset], el atributo id permite identificar de manera única el objeto en el archivo HTML, el atributo #[em name] es para darle un nombre a la entrada o variable y #[em value] para recibir el dato del componente. 
         .col-lg-4
           .tarjeta.p-4.mb-4(style="background-color: #d6e1fd")
             h5 &lt;label&gt; 

@@ -6,7 +6,7 @@
 			.titulo-principal__numero
 				span 2
 			h1 Hojas de estilo 
-		p.mb-5(data-aos='fade-right') Las hojas de estilo, conocidas como CSS (Cascading Style Sheets), son el mecanismo que confiere apariencia a una página web. Para ello, se crea un archivo con extensión .css, el cual contiene el código de estilización. Este código se compone de selectores (que pueden ser etiquetas HTML, clases, identificadores, entre otros) y un conjunto de propiedades y valores que definen el estilo de los elementos seleccionados. 
+		p.mb-5(data-aos='fade-right') Las hojas de estilo, conocidas como CSS (#[em Cascading Style Sheets]), son el mecanismo que confiere apariencia a una página web. Para ello, se crea un archivo con extensión .css, el cual contiene el código de estilización. Este código se compone de selectores (que pueden ser etiquetas HTML, clases, identificadores, entre otros) y un conjunto de propiedades y valores que definen el estilo de los elementos seleccionados. 
 		.tarjeta.p-5.mb-5(data-aos="fade-right" style="background-color: #d6e0f7 ")
 			.row.justify-content-center.align-items-center
 				.col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.svg', alt='')
@@ -26,11 +26,11 @@
 				.col-lg-4.mb-lg-0.mb-3
 					.tarjeta.p-4(style="background-color: #f7eefe") 
 						h5 Separación de estructura del documento
-						p Se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros)
+						p Se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros).
 				.col-lg-4
 					.tarjeta.p-4(style="background-color: #d8fffa") 
-						h5 Optimización de carga: Utilizar CSS 
-						p eficientemente permite reducir el tiempo de carga de las páginas web al minimizar el uso de recursos innecesarios. Esto se logra mediante la combinación de archivos, minimización de código y uso de selectores y reglas CSS adecuadas para el diseño responsive.
+						h5 Optimización de carga:  
+						p Utilizar CSS eficientemente permite reducir el tiempo de carga de las páginas web al minimizar el uso de recursos innecesarios. Esto se logra mediante la combinación de archivos, minimización de código y uso de selectores y reglas CSS adecuadas para el diseño #[em responsive].
 			.row.justify-content-center.mb-5
 				.col-lg-4.mb-lg-0.mb-3
 					h5.mb-4 Un ejemplo de código de hoja interna es:
@@ -180,7 +180,7 @@
 			.row.justify-content-center.mb-5
 				.col-lg-7(data-aos="fade-right")
 					.p-4(style="background-color: #f2e5fd")
-						p.mb-0 La estructura de CSS3 se basa en un conjunto de reglas almacenadas en un archivo. Cada regla consta de un selector, utilizado para identificar el elemento HTML al que se aplicarán los estilos, seguido de una o más declaraciones, que se separan entre sí por punto y coma (;). Una declaración incluye una propiedad y un valor asignado a esa propiedad. Además de definirse en un archivo CSS externo, estas declaraciones de estilo también pueden aplicarse directamente sobre un elemento HTML específico utilizando el atributo #[span.color-morado #[em style]]. Para ello, se coloca la propiedad, seguida de dos puntos y su valor correspondiente, todo ello entre comillas dentro del atributo style en la etiqueta HTML deseada. 
+						p.mb-0 La estructura de CSS3 se basa en un conjunto de reglas almacenadas en un archivo. Cada regla consta de un selector, utilizado para identificar el elemento HTML al que se aplicarán los estilos, seguido de una o más declaraciones, que se separan entre sí por punto y coma (;). Una declaración incluye una propiedad y un valor asignado a esa propiedad. Además de definirse en un archivo CSS externo, estas declaraciones de estilo también pueden aplicarse directamente sobre un elemento HTML específico utilizando el atributo #[span.color-morado #[em style]]. Para ello, se coloca la propiedad, seguida de dos puntos y su valor correspondiente, todo ello entre comillas dentro del atributo #[em style] en la etiqueta HTML deseada. 
 				.col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/28.svg', alt='')
 			.row.justify-content-center.mb-5
 				.col-lg-10
@@ -192,7 +192,7 @@
 			.row.justify-content-center.mb-5
 				.col-lg-6
 					
-					h4.mb-4 Un ejemplo con uso del atributo style 
+					h4.mb-4 Un ejemplo con uso del atributo #[em style]
 					.tarjeta-codigo.p-5.mb-5
 						pre.language-html(language="html").mt-5
 							code
