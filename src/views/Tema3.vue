@@ -283,7 +283,7 @@
                 br
                 |var mensaje = edad>18 ? ‘Cédula’: ’Tarjeta Identidad’; 
       .titulo-tres.mb-4: h3.mb-0 Condicional if múltiple
-      p.mb-4(data-aos='fade-right') Sirve para evaluar múltiples condiciones conservando la estructura del condicional if y para el caso alternativo se escribe la palabra reservada if else acompañada de la nueva condición a cumplir. Ejemplo con condicional if múltiple 
+      p.mb-4(data-aos='fade-right') Sirve para evaluar múltiples condiciones conservando la estructura del condicional if y para el caso alternativo se escribe la palabra reservada if else acompañada de la nueva condición a cumplir. Ejemplo con condicional if múltiple.
       .row.justify-content-center.mb-4
         .col-lg-6
           .tarjeta-codigo.p-5.mb-5

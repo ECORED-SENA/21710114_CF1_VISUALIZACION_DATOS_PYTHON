@@ -81,7 +81,7 @@
 				.col-lg-7.mb-lg-0.mb-3
 					AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--morada")
 						.p-4(titulo="De selector de nombre ")
-							p Donde se llama directamente al tag (h2) al que se debe aplicar el estilo. 
+							p Donde se llama directamente al #[em tag] (h2) al que se debe aplicar el estilo. 
 								br
 								|Ejemplo de selector de nombre: 
 							.tarjeta.bg-white.p-4
